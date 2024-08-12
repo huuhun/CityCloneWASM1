@@ -1,0 +1,74 @@
+<div class="dropdown m-3 push-self-on-small">
+    <a class="btn btn-secondary " href="#" role="button" style="background-color: #2C2C2C; border: none;"  id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+        <i class="bi bi-list"></i>
+    </a>
+
+    <ul class="dropdown-menu w-50 custom-bg-dark" aria-labelledby="dropdownMenuLink" style="background-color: #2C2C2C;">
+        <li>
+            <div class="nav-item" style="padding: 4px;">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Home
+                </NavLink>
+            </div>
+
+        </li>
+        <li>
+            <div class="nav-item" style="padding: 4px;">
+                <NavLink class="nav-link" href="view360">
+                    <i class="bi bi-browser-safari" aria-hidden="true"></i>
+                    VIEW 360
+                </NavLink>
+            </div>
+        </li>
+        <li>
+            <div class="nav-item" style="padding: 4px;">
+                <NavLink class="nav-link" href="nhamau">
+                    <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+                    NHÀ MẪU
+                </NavLink>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="dropend nav-item" style="padding: 4px;">
+                <NavLink class="nav-link dropdown" href="map" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-map" aria-hidden="true"></i>
+                    BẢN ĐỒ
+                </NavLink>
+                <ul class="dropdown-menu w-50" style="background-color: #2C2C2C;" aria-labelledby="dropdownSubMenuLink">
+                    <li>
+                        <NavLink class="dropdown-subitem  nav-link text-light" href="map/location">Vị trí dự án
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink class="dropdown-subitem nav-link text-light" href="map/connect">Kết nối tại Việt Nam
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <div class="nav-item" style="padding: 4px;">
+                <NavLink class="nav-link " href="library">
+                    <i class="bi bi-book" aria-hidden="true"></i> THƯ VIỆN
+                </NavLink>
+            </div>
+        </li>
+
+        <li>
+            <div class="nav-item small-navbar-item" style="padding: 4px;">
+                <NavLink class="" style="text-decoration: none;">
+                    <span style="color: grey; text-decoration: none;">
+                        <i class="bi bi-house-door-fill"></i> SMART CITY
+                    </span>
+                </NavLink>
+            </div>
+        </li>
+    </ul>
+</div>
+
+@code {
+
+}

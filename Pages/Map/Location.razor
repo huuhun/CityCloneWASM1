@@ -1,0 +1,124 @@
+@page "/map/location"
+
+<PageTitle>Vi trí</PageTitle>
+
+<style>
+    .overlay-list {
+        position: absolute;
+        top: 13%;
+        /* Adjust to position SVG vertically */
+        left: 25%;
+        /* Adjust to position SVG horizontally */
+        transform: translate(-50%, 10%);
+        /* Center the SVG */
+        width: 200px;
+        /* Adjust SVG size */
+        height: auto;
+        /* Maintain aspect ratio */
+        list-style-type: none;
+
+        align-items: center;
+
+        cursor: pointer;
+        /* Change cursor to pointer */
+
+        z-index: 9999;
+        /* Ensure the overlay list is on top */
+    }
+
+    .overlay-list i {
+        margin-right: 10px;
+        /* Space between icon and text */
+    }
+
+    .custom-color {
+        color: #04acfa;
+        /* Replace this with your custom color */
+    }
+
+    .custom-li {
+        margin: 10px 0;
+    } 
+
+    .overlay-image {
+        position: absolute;
+      
+        /* Adjust to position SVG horizontally */
+        transform: translate(0%, 5%);
+
+        /* Maintain aspect ratio */
+        list-style-type: none;
+
+        align-items: center;
+    }
+</style>
+
+<div class="container">
+    <div class="row mb-2">
+        <div class="col-md">
+            <div class="p-3">
+                <ul class="overlay-list">
+                    <li class="custom-li" @onclick="ToggleHighlight1"><i
+                            class='pull-right fa-solid fa-graduation-cap @(isHighlighted1 ? "custom-color" : "")'></i>Education
+                    </li>
+                    <li class="custom-li" @onclick="ToggleHighlight2"><i
+                            class='fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i> Hospitals
+                    </li>
+                    <li class="custom-li" @onclick='ToggleHighlight3'><i
+                            class='fa-solid fa-shop @(isHighlighted3 ? "custom-color" : "")'></i>Markets
+                    </li>
+                </ul>
+                <div style="position: relative;">
+                    <img src="https://www.thanhphocaphe.com/view360/img/locationb.7891d309.svg" alt="BLA"
+                        style="width: 340px; height: auto; position: relative; z-index: 1;" />
+                    @if (isHighlighted1)
+                    {
+                        <img src="/res/images/map/location-edu.ab87bf5d.svg" alt="Hidden Image" class="overlay-image"
+                            style="max-width: 100%; height: auto; absolute; top: 0; left: 0; z-index: 2;"  />
+                    }
+                    @if (isHighlighted2)
+                    {
+                        <img src="/res/images/map/location-hospital.d569b047.svg" alt="Hidden Image" class="overlay-image"
+                            style="max-width: 100%; height: auto; absolute; top: 0; left: 0; z-index: 2;" />
+                    }
+                    @if (isHighlighted3)
+                    {
+                        <img src="/res/images/map/location-market.ae0d4095.svg" alt="Hidden Image" class="overlay-image"
+                            style="max-width: 100%; height: auto; absolute; top: 0; left: 0; z-index: 2;" />
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="p-1">
+
+                <img src="../res/images/map/location-bg.e57bc0e9.svg" alt="BLA"
+                    style="width: auto; height: auto; margin-top: -70px" />
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool isHighlighted1 = true;
+    private bool isHighlighted2 = false;
+    private bool isHighlighted3 = false;
+
+    private void ToggleHighlight1()
+    {
+        isHighlighted1 = !isHighlighted1;
+    }
+
+    private void ToggleHighlight2()
+    {
+        isHighlighted2 = !isHighlighted2;
+    }
+
+    private void ToggleHighlight3()
+    {
+        isHighlighted3 = !isHighlighted3;
+    }
+}

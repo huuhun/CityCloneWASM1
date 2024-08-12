@@ -1,0 +1,47 @@
+@page "/map/connect"
+
+<PageTitle>Kết nối</PageTitle>
+
+<style>
+
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="p-1">
+                <img src=" https://www.thanhphocaphe.com/view360/img/connectb.7e8d7608.svg" alt="BLA"
+                    style="width: 20%; height: auto; margin-top: 15px; margin-left: 900px" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="p-1">
+                <img src="https://www.thanhphocaphe.com/view360/img/map_anim.86f16a3c.svg" alt="BLA"
+                    style="width: auto; height: auto; margin-top: -90px" />
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool isHighlighted1 = true;
+    private bool isHighlighted2 = false;
+    private bool isHighlighted3 = false;
+
+    private void ToggleHighlight1()
+    {
+        isHighlighted1 = !isHighlighted1;
+    }
+
+    private void ToggleHighlight2()
+    {
+        isHighlighted2 = !isHighlighted2;
+    }
+
+    private void ToggleHighlight3()
+    {
+        isHighlighted3 = !isHighlighted3;
+    }
+}

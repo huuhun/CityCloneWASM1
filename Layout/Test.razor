@@ -1,0 +1,16 @@
+
+<button class="btn btn-primary" @onclick=@HandleClick>Say Hello</button>
+@inject IJSRuntime JavaScript
+@code {
+    private async void HandleClick(){
+        var message = await GetGreeting("Hung");
+        Alert(message);
+    }
+    private void Alert(string message){
+        JavaScript.InvokeVoidAsync("alert", message);
+    }
+
+    private ValueTask<string> GetGreeting(string name){
+        return JavaScript.InvokeAsync<string>("getGreeting", name);
+    }
+}

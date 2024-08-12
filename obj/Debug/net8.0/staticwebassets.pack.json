@@ -1,0 +1,193 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\obj\\Debug\\net8.0\\compressed\\11mhyi5b0d.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CityCloneWASM1.styles.css",
+      "PackagePath": "staticwebassets\\CityCloneWASM1.styles.css"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\frame-7.png",
+      "PackagePath": "staticwebassets\\res\\frame-7.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\camera.svg",
+      "PackagePath": "staticwebassets\\res\\images\\camera.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\dk_bottom_hover.svg",
+      "PackagePath": "staticwebassets\\res\\images\\dk_bottom_hover.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\logo_nav.svg",
+      "PackagePath": "staticwebassets\\res\\images\\logo_nav.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\map\\location-bg.e57bc0e9.svg",
+      "PackagePath": "staticwebassets\\res\\images\\map\\location-bg.e57bc0e9.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\map\\location-edu.ab87bf5d.svg",
+      "PackagePath": "staticwebassets\\res\\images\\map\\location-edu.ab87bf5d.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\map\\location-hospital.d569b047.svg",
+      "PackagePath": "staticwebassets\\res\\images\\map\\location-hospital.d569b047.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\map\\location-market.ae0d4095.svg",
+      "PackagePath": "staticwebassets\\res\\images\\map\\location-market.ae0d4095.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\mini_home.png",
+      "PackagePath": "staticwebassets\\res\\images\\mini_home.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\mini_home.svg",
+      "PackagePath": "staticwebassets\\res\\images\\mini_home.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\navbar.png",
+      "PackagePath": "staticwebassets\\res\\images\\navbar.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nha-cantata-goc.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nha-cantata-goc.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nha-cantata.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nha-cantata.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nha-davinci.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nha-davinci.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nha-lak.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nha-lak.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nha-tesla-goc.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nha-tesla-goc.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nha-tesla.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nha-tesla.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\nhamau_stride.png",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\nhamau_stride.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\nhamau\\play_default.svg",
+      "PackagePath": "staticwebassets\\res\\images\\nhamau\\play_default.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\sub-intro-back.jpg",
+      "PackagePath": "staticwebassets\\res\\images\\sub-intro-back.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\brochure-du-an.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\brochure-du-an.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\dang-ky-tu-van.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\dang-ky-tu-van.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\logo-video.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\logo-video.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\nha-cantata-goc.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\nha-cantata-goc.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\nha-cantata.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\nha-cantata.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\nha-tesla.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\nha-tesla.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\somepdf.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\somepdf.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\somepdf1.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\somepdf1.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\tai-lieu-khac.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\tai-lieu-khac.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\thanh-pho-cafe.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\thanh-pho-cafe.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\thuvien_stride.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\thuvien_stride.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\pdf\\file_sample.pdf",
+      "PackagePath": "staticwebassets\\res\\pdf\\file_sample.pdf"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\pdf\\file_sample1.pdf",
+      "PackagePath": "staticwebassets\\res\\pdf\\file_sample1.pdf"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CityCloneWASM1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CityCloneWASM1.props",
+      "PackagePath": "build\\CityCloneWASM1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CityCloneWASM1.props",
+      "PackagePath": "buildMultiTargeting\\CityCloneWASM1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CityCloneWASM1.props",
+      "PackagePath": "buildTransitive\\CityCloneWASM1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

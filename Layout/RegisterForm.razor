@@ -1,0 +1,81 @@
+<div class="container">
+   <EditForm Model="@Contact">
+      <DataAnnotationsValidator />
+
+      <div class="row mb-3">
+         <h5 style="text-align: left; font-size: 40px;">ĐĂNG KÝ NHẬN THÔNG TIN DỰ ÁN</h5>
+
+      </div>
+
+      <div class="row mb-3">
+         <h3 style="text-align: left; font-size: 20px;">Quý khách vui lòng gửi thông tin để được tư vấn và nhận thông
+            tin
+            mới
+            nhất về dự án Thành Phố Cà Phê</h3>
+      </div>
+
+      <div class="row mb-3">
+         <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label">Họ tên</label>
+            <InputText @bind-Value=Contact.Name class="form-control transparent-input" id="name" />
+            <div class="validation-placeholder">
+               <ValidationMessage For="() => Contact.Name" />.
+            </div>
+         </div>
+         <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <InputText @bind-Value=Contact.Email class="form-control transparent-input" />
+            <div class="validation-placeholder">
+               <ValidationMessage For="() => Contact.Email" />.
+            </div>
+         </div>
+      </div>
+      <div class="row mb-3">
+         <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label">Tên công ty</label>
+            <InputText @bind-Value=Contact.Company class="form-control transparent-input" />
+            <div class="validation-placeholder">
+               <ValidationMessage For="() => Contact.Company" />.
+            </div>
+         </div>
+         <div class="col-6">
+            <label for="exampleInputEmail1" class="form-label">Số điện thoại</label>
+            <InputText @bind-Value=Contact.Phone class="form-control transparent-input" id="exampleInputEmail1" />
+            <div class="validation-placeholder">
+               <ValidationMessage For="() => Contact.Phone" />.
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-12">
+            <label for="exampleInputEmail1" class="form-label">Mô tả</label>
+            <InputText @bind-Value=Contact.Message class="form-control transparent-input" id="exampleInputEmail1" />
+            <div class="validation-placeholder">
+               <ValidationMessage For="() => Contact.Message" />.
+            </div>
+         </div>
+      </div>
+      <div>
+         <button type="submit" class="btn link-button float-end">
+            <div class="image-hover"></div>
+         </button>
+      </div>
+   </EditForm>
+
+
+</div>
+
+
+
+@code {
+   Contact Contact = new Contact();
+
+   [Inject]
+   private NavigationManager Navigation { get; set; }
+
+   private void HandleValidSubmit()
+   {
+      // Navigate to the home page
+      Navigation.NavigateTo("/");
+   }
+}

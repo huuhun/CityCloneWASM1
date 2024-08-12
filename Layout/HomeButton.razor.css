@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+    .push-self-on-small {
+        bottom: 36px;
+    }
+}
+@media (min-width: 1000px) {
+    .push-self-on-small {
+        bottom: -13px;
+        left: 90px;
+    }
+    
+}

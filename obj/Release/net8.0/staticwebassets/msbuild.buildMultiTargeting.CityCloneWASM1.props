@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CityCloneWASM1.props" />
+</Project>

@@ -1,0 +1,41 @@
+.image-hover[b-worpmzyjof] {
+
+
+  width: 400px;
+  /* Specify the width */
+  height: 100px;
+  /* Specify the height */
+  background-image: url('https://www.thanhphocaphe.com/view360/img/dk.f6055e10.svg');
+  /* Initial background image */
+  background-repeat: no-repeat;
+  /* Prevent the image from repeating */
+  background-position: center;
+  /* Center the image within the div */
+  background-size: 60% 60%;
+  /* Make the background image smaller */
+  /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out;
+  /* Smooth transition */
+
+}
+
+.image-hover:hover[b-worpmzyjof] {
+  background-image: url('https://www.thanhphocaphe.com/view360/img/dka.4220d96d.svg');
+  /* Change on hover */
+}
+
+.link-button[b-worpmzyjof] {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.validation-placeholder[b-worpmzyjof] {
+  height: 1.5em;
+  /* Adjust this value based on the expected size of your validation message */
+  color: red;
+  /* Optional: Style for validation messages */
+  line-height: 1.5em;
+  /* Center text vertically if needed */
+}

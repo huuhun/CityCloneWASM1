@@ -1,0 +1,51 @@
+.overlay-hotbar[b-hbg5lacw2l] {
+    position: absolute;
+    top: 120px;
+    right: -150px;
+
+
+    /* Adjust to position SVG horizontally */
+    /* transform: translate(-10%, 100%); */
+    /* Center the SVG */
+    /* width: 200px; */
+    /* Adjust SVG size */
+    /* height: auto; */
+    /* Maintain aspect ratio */
+    /* list-style-type: none; */
+
+    /* align-items: center; */
+
+    cursor: pointer;
+    /* Change cursor to pointer */
+
+    z-index: 10;
+    /* Ensure the overlay list is on top */
+}
+
+.overlay-hotbar li[b-hbg5lacw2l] {
+    position: relative;
+    /* Make sure the item is positioned relative to its normal position */
+    display: flex;
+    background-color: rgb(199, 199, 207);
+    align-items: center;
+    justify-content: left;
+    width: 200px;
+    /* Set the width of the square */
+    height: 50px;
+    /* Set the height of the square to match the width */
+    margin-bottom: 10px;
+    /* Space between items */
+
+    padding-left: 13px;
+    /* Add padding to the left to move content to the right */
+}
+
+.overlay-hotbar li:hover[b-hbg5lacw2l] {
+    right: 100px;
+    background-color: gold;
+}
+
+.overlay-hotbar img[b-hbg5lacw2l] {
+    margin-right: 13px;
+    /* Space between icon and text */
+}

@@ -1,0 +1,104 @@
+<style>
+    .modal-footer {
+        border-top: none;
+        /* Removes the top border */
+    }
+
+    .modal-header {
+        border-bottom: none;
+        /* Removes the top border */
+    }
+</style>
+<div>
+    <ul class="overlay-hotbar list-unstyled">
+        <a type="button" style="text-decoration: none; color: black;" data-bs-toggle="modal"
+            data-bs-target="#contactModal">
+            <li class="custom-list">
+
+                <img src="res/images/camera.svg" alt="Icon" width="30" height="24" />
+                CAPTURE
+            </li>
+        </a>
+        <a href="/view360" style="text-decoration: none; color: black;">
+            <li class="">
+                <img src="https://www.thanhphocaphe.com/view360/img/icon-view360.b34be79d.svg" alt="Icon" width="30"
+                    height="24" />
+                VIEW 360
+
+            </li>
+        </a>
+        <a href="/" style="text-decoration: none; color: black;">
+            <li class="">
+                <img src="res/images/mini_home.png" alt="Icon" width="30" height="24">
+                HOME
+            </li>
+        </a>
+    </ul>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5  border-0" id="exampleModalLabel">Contact</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="@Contact">
+                    <DataAnnotationsValidator />
+
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="exampleInputEmail1" class="form-label ">Họ tên</label>
+                            <InputText @bind-Value=Contact.Name class="form-control transparent-input" id="name" />
+                            <div class="validation-placeholder">
+                                <ValidationMessage For="() => Contact.Name" />.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-12">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <InputText @bind-Value=Contact.Email class="form-control transparent-input" />
+                            <div class="validation-placeholder">
+                                <ValidationMessage For="() => Contact.Email" />.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="exampleInputEmail1" class="form-label">Số điện thoại</label>
+                            <InputText @bind-Value=Contact.Email class="form-control transparent-input" />
+                            <div class="validation-placeholder">
+                                <ValidationMessage For="() => Contact.Phone" />.
+                            </div>
+                        </div>
+                    </div>
+
+                </EditForm>
+            </div>
+            <div class="modal-footer " style="">
+                <button type="button" class="btn transparent-button" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn transparent-button">Capture</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@code {
+    Contact Contact = new Contact();
+
+    [Inject]
+    private NavigationManager Navigation { get; set; }
+
+    private void HandleValidSubmit()
+    {
+        // Navigate to the home page
+        Navigation.NavigateTo("/");
+    }
+}

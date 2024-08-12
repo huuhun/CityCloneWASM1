@@ -1,0 +1,280 @@
+@page "/library/video"
+
+<PageTitle>Video</PageTitle>
+
+<style>
+    .modal-dialog {
+        max-width: 80%;
+        /* Adjust the width of the modal */
+        margin: 30px auto;
+        /* Center the modal vertically */
+    }
+
+    .modal-content {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        /* Reset margin */
+    }
+
+    .modal-body {
+        padding: 0;
+        margin: 0;
+        /* Reset margin */
+    }
+
+    iframe {
+        border: none;
+        /* Remove any default border */
+        width: 100%;
+        /* Ensure the iframe fills the modal width */
+        height: 80vh;
+        /* Adjust height as needed */
+        display: block;
+        /* Remove inline spacing */
+    }
+
+    .custom-font-size {
+        font-size: small;
+    }
+
+    .container-wrapper {
+        display: flex;
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically (optional) */
+        height: 100vh;
+        /* Full viewport height to center vertically */
+    }
+
+    .scale-down {
+        justify-content: center;
+        /* Center horizontally */
+
+        transform: scale(0.92);
+        /* Adjust the scale factor as needed */
+        transform-origin: top;
+        /* Optional: adjust the origin of the transformation */
+        width: 100%;
+        /* Ensure the container width adjusts with scaling */
+    }
+</style>
+
+<div class="container scale-down">
+    <div class="row">
+        <div class="col-md">
+            <div class="p-3">
+                <img src="../res/images/thuvien/thuvien_stride.png" alt="Thu vien"
+                    style="width: 350px; height: auto;" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=90&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/thanh-pho-cafe.png" alt="BLA"
+                        style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        THÀNH PHỐ CAFE
+                        <br />
+                        ĐẲNG CẤP ĐÔ THỊ CHỮA LÀNH
+                        <br />
+                        ĐẦU TIÊN TẠI VIỆT NAM
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=117&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=117&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=117&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=117&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=117&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=90&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/thanh-pho-cafe.png" alt="BLA"
+                        style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        THÀNH PHỐ CAFE
+                        <br />
+                        ĐẲNG CẤP ĐÔ THỊ CHỮA LÀNH
+                        <br />
+                        ĐẦU TIÊN TẠI VIỆT NAM
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/VZgwpwgev_c?start=117&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/12jLw8Oim54?start=14&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/logo-video.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        TOÀN CẢNH
+                        <br />
+                        THÀNH PHỐ CÀ PHÊ
+                        <br />
+                        ĐÔ THỊ VÀNG CỦA
+                        <br />
+                        THỦ PHỦ CÀ PHÊ TOÀN CẦU
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="#"
+                    @onclick='(() => SetVideoUrl("https://www.youtube.com/embed/_Zyrnz3bDK8?start=55&autoplay=1"))'
+                    data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <img src="../res/images/thuvien/thanh-pho-cafe.png" alt="BLA"
+                        style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size">
+                        THÀNH PHỐ CAFE
+                        <br />
+                        ĐẲNG CẤP ĐÔ THỊ CHỮA LÀNH
+                        <br />
+                        ĐẦU TIÊN TẠI VIỆT NAM
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe src="@videoUrl" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    private string videoUrl = "";
+    private void SetVideoUrl(string url)
+    {
+        videoUrl = url;
+    }
+}

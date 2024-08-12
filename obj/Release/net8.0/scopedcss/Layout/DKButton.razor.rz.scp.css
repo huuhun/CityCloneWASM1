@@ -1,0 +1,10 @@
+/* Hide DKButton on screens narrower than 768px */
+@media (max-width: 1000px) {
+    .hide-on-small[b-0xv0htrg8o] {
+        display: none;
+    }
+}
+
+.button-container[b-0xv0htrg8o]{
+    z-index: 10;
+}

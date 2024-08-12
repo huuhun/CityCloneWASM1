@@ -1,0 +1,186 @@
+﻿@inject NavigationManager NavigationManager
+@* <div class="nav-bottom @NavMenuCssClass"> *@
+
+<HomeButton></HomeButton>
+<div class="nav-bottom push-self-on-small">
+    <nav class="navbar navbar-expand-lg">
+       <div class="nav-item">
+
+       </div>
+        <div class="nav-item">
+            <NavLink class="nav-link" href="view360">
+                <i class="bi bi-browser-safari" aria-hidden="true"></i>
+                VIEW 360
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink class="nav-link" href="nhamau">
+                <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+                NHÀ MẪU
+            </NavLink>
+        </div>
+
+        @* <div class="nav-item" style="padding: 4px;">
+        <li class="dropend">
+
+        <NavLink class="nav-link dropdown-item nav-item" href="#" id="dropdownSubMenuLink"
+        data-bs-toggle="dropdown" aria-expanded="false">BẢN ĐỒ
+        </NavLink>
+        <ul class="dropdown-menu w-50" style="background-color: #2C2C2C;" aria-labelledby="dropdownSubMenuLink">
+        <li>
+        <NavLink class="dropdown-item custom-hover text-light" href="map/location">Vị trí dự án
+        </NavLink>
+        </li>
+        <li>
+        <NavLink class="dropdown-item custom-hover text-light" href="map/connect">Kết nối tại Việt Nam
+        </NavLink>
+        </li>
+        </ul>
+
+        </li>
+        </div> *@
+
+        <div class="nav-item dropup-center dropup">
+            <NavLink class="nav-link dropdown-toggle" href="map" role="button" aria-expanded="false"
+                data-bs-toggle="dropdown">
+                <i class="bi bi-map" aria-hidden="true"></i>
+                BẢN ĐỒ
+            </NavLink>
+
+            <ul class="dropdown-menu w-100 custom-bg-dark" style="background-color: #2C2C2C;">
+                <li>
+                    <NavLink class="dropdown-subitem nav-link text-light" href="map/location">Vị trí dự án
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="dropdown-subitem nav-link text-light" href="map/connect">Kết nối tại Việt Nam
+                    </NavLink>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="nav-link " href="library">
+                <i class="bi bi-book" aria-hidden="true"></i> THƯ VIỆN
+            </NavLink>
+        </div>
+
+        <div class="nav-item">
+            <NavLink class="" style="text-decoration: none;">
+                <span style="color: grey">
+                    <i class="bi bi-house-door-fill"></i> SMART CITY
+                </span>
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+<div class="toggler-container">
+    @* <div class="navbar-toggler dropdown-toggle" style="background-color: rgb(44, 44, 44);" href="map" type="button"
+    data-bs-toggle="dropdown" aria-expanded="false">
+    <i class="bi bi-list"></i>
+    </div>
+
+    <ul class="dropdown-menu w-50 custom-bg-dark" style="background-color: #2C2C2C;">
+    <li>
+    <div class="nav-item" style="padding: 4px;">
+    <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+    Home
+    </NavLink>
+    </div>
+
+    </li>
+    <li>
+    <div class="nav-item" style="padding: 4px;">
+    <NavLink class="nav-link" href="view360">
+    <i class="bi bi-browser-safari" aria-hidden="true"></i>
+    VIEW 360
+    </NavLink>
+    </div>
+    </li>
+    <li>
+    <div class="nav-item" style="padding: 4px;">
+    <NavLink class="nav-link" href="nhamau">
+    <i class="bi bi-house-door-fill" aria-hidden="true"></i>
+    NHÀ MẪU
+    </NavLink>
+    </div>
+    </li>
+
+    <li>
+    <div class="nav-item dropstart" style="padding: 4px;">
+    <NavLink class="nav-link dropdown-toggle" href="map" type="button" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-expanded="false" >
+    <i class="bi bi-map" aria-hidden="true"></i>
+    BẢN ĐỒ
+    </NavLink>
+
+    <ul class="dropdown-menu w-100 custom-bg-dark" aria-labelledby="dropdownMenuButton"
+    style="background-color: #2C2C2C;">
+    <li>
+    <NavLink class="dropdown-item custom-hover text-light" href="counter">Vị trí dự án</NavLink>
+    </li>
+    <li>
+    <NavLink class="dropdown-item custom-hover text-light" href="#">Kết nối tại Việt Nam
+    </NavLink>
+    </li>
+    </ul>
+    </div>
+    </li>
+
+
+    <li>
+    <div class="nav-item" style="padding: 4px;">
+    <NavLink class="nav-link " href="library">
+    <i class="bi bi-book" aria-hidden="true"></i> THƯ VIỆN
+    </NavLink>
+    </div>
+    </li>
+
+    <li>
+    <div class="nav-item small-navbar-item" style="padding: 4px;">
+    <NavLink class="" style="text-decoration: none;">
+    <span style="color: grey; text-decoration: none;">
+    <i class="bi bi-house-door-fill"></i> SMART CITY
+    </span>
+    </NavLink>
+    </div>
+    </li>
+
+    </ul> *@
+    <MiniNavMenu />
+
+
+</div>
+@code {
+    @* private bool collapseNavMenu = false;
+
+private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+private void ToggleNavMenu()
+{
+collapseNavMenu = !collapseNavMenu;
+} *@
+
+    @* private bool IsActive(string href)
+{
+var currentUri = Navigation.Uri;
+return currentUri.EndsWith(href, StringComparison.OrdinalIgnoreCase);
+}
+
+private string GetNavLinkClass(string href)
+{
+return $"nav-link dropdown-toggle {(IsActive(href) ? "active" : "")}";
+}
+
+private void NavigateToMapUrl()
+{
+Navigation.NavigateTo("map");
+} *@
+
+    private bool isShowingSubMenu = false;
+
+
+
+
+}

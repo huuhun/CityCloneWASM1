@@ -1,0 +1,53 @@
+@page "/library/other"
+
+<PageTitle>Thư Viện</PageTitle>
+
+<style>
+    .custom-font-size {
+        font-size: small;
+    }
+</style>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-md">
+            <div class="p-3">
+                <img src="../res/images/thuvien/thuvien_stride.png" alt="Thu vien"
+                    style="width: 350px; height: auto;" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-1">
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="/res/pdf/file_sample.pdf" target="_blank">
+                    <img src="../res/images/thuvien/somepdf.png" alt="BLA" style="width: 340px; height: auto; " />
+                    <p class="mt-2 text-center custom-font-size ">
+                        Tổ hợp thể thao
+                        <br>
+                        Gym - Yoga - Bắn cung
+                    </p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="p-1 d-flex justify-content-center">
+                <NavLink class="nav-link shadow-image-link" href="/res/pdf/file_sample1.pdf" target="_blank">
+                    <img src="../res/images/thuvien/somepdf1.png" alt="BLA" style="width: 340px; height: auto;" />
+                    <p class="mt-2 text-center custom-font-size ">Lookbook nội thất</p> <!-- Added text -->
+                </NavLink>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
