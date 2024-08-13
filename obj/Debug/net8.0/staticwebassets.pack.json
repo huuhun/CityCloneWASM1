@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\js\\panorama.js",
+      "PackagePath": "staticwebassets\\js\\panorama.js"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\js\\streetview-core.min.js",
+      "PackagePath": "staticwebassets\\js\\streetview-core.min.js"
+    },
+    {
       "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\frame-7.png",
       "PackagePath": "staticwebassets\\res\\frame-7.png"
     },
@@ -125,6 +133,10 @@
       "PackagePath": "staticwebassets\\res\\images\\thuvien\\dang-ky-tu-van.png"
     },
     {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\guys.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\guys.png"
+    },
+    {
       "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\logo-video.png",
       "PackagePath": "staticwebassets\\res\\images\\thuvien\\logo-video.png"
     },
@@ -159,6 +171,66 @@
     {
       "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\thuvien_stride.png",
       "PackagePath": "staticwebassets\\res\\images\\thuvien\\thuvien_stride.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\Thumbs.db",
+      "PackagePath": "staticwebassets\\res\\imgs\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\airtarget.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\airtarget.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\arrow-move.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\arrow-move.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\baseline_navigation_black_24dp.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\baseline_navigation_black_24dp.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\camera.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\camera.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\cursor2.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\cursor2.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\field.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\field.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\hotspot.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\hotspot.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\hotspot.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\hotspot.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\logo.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\logo.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\navigation_black_24dp.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\navigation_black_24dp.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\null.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\null.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\target.png",
+      "PackagePath": "staticwebassets\\res\\imgs\\target.png"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\videocam_black_24dp.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\videocam_black_24dp.svg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\imgs\\view.svg",
+      "PackagePath": "staticwebassets\\res\\imgs\\view.svg"
     },
     {
       "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\pdf\\file_sample.pdf",

@@ -19,44 +19,46 @@
 </head>
 
 <style>
-      * {
-            margin: 0;
-        }
+    * {
+        margin: 0;
+    }
 
-        .page {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
+    .page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 
-        #container1 {
-            height: 100%;
-            width: 100%;
-            /* border: 1px solid green; */
-            /* overflow: hidden; */
-            position: relative;
-        }
+    #container1 {
+        height: 100%;
+        width: 100%;
+        /* border: 1px solid green; */
+        /* overflow: hidden; */
+        position: relative;
+    }
 
-        #container2 {
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            left: 0px;
-            right: -18px; 
-            /* fix little white space to the left */
-            /* border: 1px solid blue; */
-            /* overflow: auto; */
-            overflow-y: auto; /* Enable vertical scrolling */
-            overflow-x: hidden; /* Disable horizontal scrolling */
-            height: 100vh
-        }
+    #container2 {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: -18px;
+        /* fix little white space to the left */
+        /* border: 1px solid blue; */
+        /* overflow: auto; */
+        overflow-y: auto;
+        /* Enable vertical scrolling */
+        overflow-x: hidden;
+        /* Disable horizontal scrolling */
+        height: 100vh
+    }
 
-        html,
-        body {
-            height: 99%;
-            /* border: 1px solid red; */
-            overflow: hidden;
-        }
+    html,
+    body {
+        height: 99%;
+        /* border: 1px solid red; */
+        overflow: hidden;
+    }
 </style>
 
 <body>
@@ -74,7 +76,10 @@
         <a class="dismiss">🗙</a>
     </div> -->
     <script src="_framework/blazor.webassembly.js"></script>
-    
+    <script src="js/panorama.js"></script> <!-- Reference your JavaScript file here -->
+    <script src="js/streetview-core.min.js?v=25"></script>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

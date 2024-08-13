@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sNurLuW7eNXnYKXbawY8sx5bBCtot9b3zFpb2EO9dSc=",
+  "Hash": "ZrUYY6eU0eQQ4HJWZ/17fXscNQT9hGQ7XZjHywQQfkc=",
   "Source": "CityCloneWASM1",
   "BasePath": "/",
   "Mode": "Root",
@@ -8337,6 +8337,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\res\\images\\thuvien\\dang-ky-tu-van.png"
+    },
+    {
+      "Identity": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\guys.png",
+      "SourceId": "CityCloneWASM1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "res/images/thuvien/guys.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\res\\images\\thuvien\\guys.png"
     },
     {
       "Identity": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\logo-video.png",

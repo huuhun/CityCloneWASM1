@@ -1038,3 +1038,4 @@ D:\Hung_Dev\CityCloneWASM1\obj\Release\net8.0\refint\CityCloneWASM1.dll
 D:\Hung_Dev\CityCloneWASM1\obj\Release\net8.0\CityCloneWASM1.pdb
 D:\Hung_Dev\CityCloneWASM1\obj\Release\net8.0\ref\CityCloneWASM1.dll
 D:\Hung_Dev\CityCloneWASM1\obj\Release\net8.0\scopedcss\Pages\iframes\NhaTesla.razor.rz.scp.css
+D:\Hung_Dev\CityCloneWASM1\obj\Release\net8.0\CityCloneWASM1.sourcelink.json

@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\res\\images\\thuvien\\dang-ky-tu-van.png"
     },
     {
+      "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\guys.png",
+      "PackagePath": "staticwebassets\\res\\images\\thuvien\\guys.png"
+    },
+    {
       "Id": "D:\\Hung_Dev\\CityCloneWASM1\\wwwroot\\res\\images\\thuvien\\logo-video.png",
       "PackagePath": "staticwebassets\\res\\images\\thuvien\\logo-video.png"
     },
