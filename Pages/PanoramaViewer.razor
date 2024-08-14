@@ -1,7 +1,9 @@
 @page "/panorama"
 
+@inject IJSRuntime JS
+
 <style>
-   .app3d {
+    .app3d {
         position: fixed;
         top: 0;
         right: 0;
@@ -31,6 +33,8 @@
         position: absolute;
         width: 72px;
         height: 72px;
+        display: block;
+        /* Ensure elements are not hidden */
     }
 </style>
 
@@ -40,16 +44,22 @@
 <div id="mini-map" class="mini-map"></div>
 
 @code {
-    @code {
-        [Inject] IJSRuntime JS { get; set; }
-
-        protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
         {
-            if (firstRender)
-            {
-                await JS.InvokeVoidAsync("runapp");
-            }
+            await JS.InvokeVoidAsync("runapp");
         }
     }
+
+    @* private async Task CallJavaScript()
+    {
+        await JS.InvokeVoidAsync("runapp");
+    } *@
+
+    @* private async Task MyButtonClickAsync()
+{
+await JS.InvokeVoidAsync("runapp");
+} *@
 
 }

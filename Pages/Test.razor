@@ -1,0 +1,24 @@
+@page "/test"
+
+@inject IJSRuntime JS
+
+<h3>JavaScript Interop Example</h3>
+
+@* <button @onclick="CallJavaScript" class="btn btn-primary">Call JavaScript Function</button> *@
+
+@code {
+    @* private async Task CallJavaScript()
+{
+await JS.InvokeVoidAsync("showAlert");
+} *@
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            Console.WriteLine("NOT FIRST?.");
+
+            @* await JS.InvokeVoidAsync("showAlert"); *@
+        }
+    }
+}

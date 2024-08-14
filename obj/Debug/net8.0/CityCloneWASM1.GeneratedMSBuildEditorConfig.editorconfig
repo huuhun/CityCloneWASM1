@@ -94,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU21hcnRDaXR5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Hung_Dev/CityCloneWASM1/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Hung_Dev/CityCloneWASM1/Pages/View360.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlldzM2MC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

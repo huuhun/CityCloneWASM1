@@ -1,3 +1,4 @@
+console.log("ayo");
 const baseUrl = 'http://local.rollingant.com/ecolakesmyphuoc/hinhv33/'
 let viewer, minimap, info, curr
 function runapp() {
@@ -23,7 +24,7 @@ function runapp() {
         canPan: false,
         canZoom: false,
         camera: {
-            path: 'res/imgs/field.svg',
+            path: './imgs/field.svg',
             transform: {
                 x: 48,
                 y: 70,
@@ -58,7 +59,7 @@ function runapp() {
             if (!hp) {
                 hp = {
                     name: item.name,
-                    el: createElementFromHTML(`<div class="pano-hotspot" ><img src="res/imgs/hotspot.svg"/></div>`)
+                    el: createElementFromHTML(`<div class="pano-hotspot" ><img src="imgs/hotspot.svg?v=1.0.1"/></div>`)
                 }
                 allhotspot.push(hp)
                 info.appendChild(hp.el)
@@ -66,7 +67,7 @@ function runapp() {
             hp.el.style = `top:${item.pos2d.y - 36}px;left:${item.pos2d.x - 36}px`
             // console.log("bbbb")
         }
-        // console.log("aaaaa")
+        //  console.log("aaaaa")
     };
     minimap.onclick = (hp) => {
 
@@ -99,3 +100,4 @@ function loadPanoById(id, firstload = false) {
     window.history.pushState({}, null, `./?view=${id}`);
 }
 runapp();
+
