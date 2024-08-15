@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hung_Dev\\CityCloneWASM1\\CityCloneWASM1.csproj": {}
+    "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\CityCloneWASM1.csproj": {}
   },
   "projects": {
-    "D:\\Hung_Dev\\CityCloneWASM1\\CityCloneWASM1.csproj": {
+    "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\CityCloneWASM1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hung_Dev\\CityCloneWASM1\\CityCloneWASM1.csproj",
+        "projectUniqueName": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\CityCloneWASM1.csproj",
         "projectName": "CityCloneWASM1",
-        "projectPath": "D:\\Hung_Dev\\CityCloneWASM1\\CityCloneWASM1.csproj",
+        "projectPath": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\CityCloneWASM1.csproj",
         "packagesPath": "C:\\Users\\huuhung\\.nuget\\packages\\",
-        "outputPath": "D:\\Hung_Dev\\CityCloneWASM1\\obj\\",
+        "outputPath": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f/9PAG1+bsI=",
+  "dgSpecHash": "QuZP56Me47g=",
   "success": true,
-  "projectFilePath": "D:\\Hung_Dev\\CityCloneWASM1\\CityCloneWASM1.csproj",
+  "projectFilePath": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\CityCloneWASM1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huuhung\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.7\\microsoft.aspnetcore.authorization.8.0.7.nupkg.sha512",
     "C:\\Users\\huuhung\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.7\\microsoft.aspnetcore.components.8.0.7.nupkg.sha512",

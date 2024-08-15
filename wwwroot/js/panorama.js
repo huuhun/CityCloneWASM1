@@ -1,4 +1,4 @@
-console.log("ayo");
+console.log("js script running");
 const baseUrl = 'http://local.rollingant.com/ecolakesmyphuoc/hinhv33/'
 let viewer, minimap, info, curr
 function runapp() {
@@ -97,7 +97,9 @@ function loadPanoById(id, firstload = false) {
             return viewer.loadPano(res, firstload, 0, 1000)
         })
         .catch(console.log)
-    window.history.pushState({}, null, `./?view=${id}`);
+    //window.history.pushState({}, null, `./?view=${id}`);
+    DotNet.invokeMethodAsync('Test360', 'NavigateToView', id);
+
 }
 runapp();
 
