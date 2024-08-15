@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s7UB2D23UHRfndW0cHtI5tnlpW8ccP6KfSEM3RDLa5k=",
+  "Hash": "/PfRMSRTmMFf745ZKLPYA0IXRVYZmtd0J1sxU2zQqhs=",
   "Source": "CityCloneWASM1",
   "BasePath": "/",
   "Mode": "Root",
@@ -8206,6 +8206,25 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\animated-btn.js",
+      "SourceId": "CityCloneWASM1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/animated-btn.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\animated-btn.js"
+    },
+    {
       "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\panorama.js",
       "SourceId": "CityCloneWASM1",
       "SourceType": "Discovered",
@@ -8242,25 +8261,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\streetview-core.min.js"
-    },
-    {
-      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\test.js",
-      "SourceId": "CityCloneWASM1",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "js/test.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\test.js"
     },
     {
       "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\view360.js",

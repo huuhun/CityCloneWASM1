@@ -286,10 +286,41 @@ h1:focus {
     /* Optional: Change text color on hover */
 }
 
-.transparent-input{
-    background-color:transparent !important;
+.transparent-input {
+    background-color: transparent !important;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px dotted rgb(0, 0, 0);
- }
+}
+
+.ripple-button {
+    position: relative;
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    overflow: hidden;
+}
+
+.ripple-button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    width: 300%; /* Adjust width to cover larger area */
+    height: 300%; /* Adjust height to cover larger area */
+    border-radius: 50%; /* Ensure it's a circle */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.ripple-button:active:after {
+    width: 0;
+    height: 0;
+    opacity: 1;
+    transition: 0s;
+}
