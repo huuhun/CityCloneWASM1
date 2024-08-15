@@ -1868,7 +1868,6 @@ D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\Layout\MiniNav
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\Layout\RegisterForm.razor.rz.scp.css
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\Layout\Test.razor.rz.scp.css
-D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\Pages\iframes\NhaTesla.razor.rz.scp.css
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\bundle\CityCloneWASM1.styles.css
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\scopedcss\projectbundle\CityCloneWASM1.bundle.scp.css
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\compressed\11mhyi5b0d.gz

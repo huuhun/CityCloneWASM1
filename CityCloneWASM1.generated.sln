@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityCloneWASM1", "CityCloneWASM1.csproj", "{CEABB175-F21A-45D5-BFE2-68269F24223F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEABB175-F21A-45D5-BFE2-68269F24223F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEABB175-F21A-45D5-BFE2-68269F24223F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEABB175-F21A-45D5-BFE2-68269F24223F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEABB175-F21A-45D5-BFE2-68269F24223F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6137F0B4-0F4A-4C6E-8F09-9D06A91B5B5C}
+	EndGlobalSection
+EndGlobal

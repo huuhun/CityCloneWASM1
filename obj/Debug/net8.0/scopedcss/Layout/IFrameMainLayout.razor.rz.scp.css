@@ -1,0 +1,53 @@
+#blazor-error-ui[b-mfrp2doku6] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss[b-mfrp2doku6] {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.custom-button[b-mfrp2doku6] {
+    background-color: brown;
+}
+
+.overlay-png[b-mfrp2doku6] {
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    height: 54px;
+    /* Background color */
+    z-index: 2;
+    /* Higher z-index to make it appear above other content */
+    display: flex;
+    padding: 0.0rem 0.0rem;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1000px) {
+    .push-self-on-small[b-mfrp2doku6] {
+        bottom: 35px;
+    }
+}
+
+
+.background-cover[b-mfrp2doku6] {
+    background-image: url('../res/images/sub-intro-back.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    height: auto;
+    background-attachment: fixed;
+    width: 100%;
+}
