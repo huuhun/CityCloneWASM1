@@ -97,12 +97,12 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\animated-btn.js",
-      "PackagePath": "staticwebassets\\js\\animated-btn.js"
-    },
-    {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\panorama.js",
       "PackagePath": "staticwebassets\\js\\panorama.js"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\streetview-core.min.js",

@@ -1,5 +1,7 @@
 ﻿@inject NavigationManager NavigationManager
 @* <div class="nav-bottom @NavMenuCssClass"> *@
+@inject IJSRuntime JS
+
 
 <HomeButton></HomeButton>
 <div class="nav-bottom push-self-on-small">
@@ -41,15 +43,22 @@
         </div> *@
 
         <div class="nav-item dropup-center dropup">
-            <NavLink class="nav-link dropdown-toggle ripple-button" href="map" role="button" aria-expanded="false"
-                data-bs-toggle="dropdown">
-                <i class="bi bi-map" aria-hidden="true"></i>
-                BẢN ĐỒ
-            </NavLink>
+             <NavLink class="nav-link dropdown-toggle ripple-button" id="dropdownMenu" href="map" role="button"
+            aria-expanded="false" data-bs-toggle="dropdown">
+            <i class="bi bi-map" aria-hidden="true"></i>
+            BẢN ĐỒ
+            </NavLink> 
+
+
+            @* <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown button
+            </button> *@
 
             <ul class="dropdown-menu w-100 custom-bg-dark" style="background-color: #2C2C2C;">
-                <li>
+               <li>
                     <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/location">Vị trí dự án
+                        Việt Nam
                     </NavLink>
                 </li>
                 <li>
@@ -78,39 +87,15 @@
 
 <div class="toggler-container ">
 
-        <MiniNavMenu />
+    <MiniNavMenu />
 
 
 </div>
 @code {
-    @* private bool collapseNavMenu = false;
-
-private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-private void ToggleNavMenu()
-{
-collapseNavMenu = !collapseNavMenu;
-} *@
-
-    @* private bool IsActive(string href)
-{
-var currentUri = Navigation.Uri;
-return currentUri.EndsWith(href, StringComparison.OrdinalIgnoreCase);
-}
-
-private string GetNavLinkClass(string href)
-{
-return $"nav-link dropdown-toggle {(IsActive(href) ? "active" : "")}";
-}
-
-private void NavigateToMapUrl()
-{
-Navigation.NavigateTo("map");
-} *@
-
-    private bool isShowingSubMenu = false;
-
-
-
+    private async Task OnDropdownItemClick(string dropdownId)
+    {
+        NavigationManager.NavigateTo("/map/location");
+        await JS.InvokeVoidAsync("closeDropdownWithDelay", dropdownId, 3000); // 300 ms delay
+    }
 
 }

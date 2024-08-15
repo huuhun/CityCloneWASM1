@@ -49,3 +49,8 @@
     margin-right: 13px;
     /* Space between icon and text */
 }
+
+.overlay-hotbar li:active {
+    right: 100px;
+    background-color: gold;
+}

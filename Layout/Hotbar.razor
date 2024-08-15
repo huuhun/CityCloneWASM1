@@ -1,3 +1,4 @@
+@inject IJSRuntime JS
 <style>
     .modal-footer {
         border-top: none;
@@ -11,16 +12,15 @@
 </style>
 <div>
     <ul class="overlay-hotbar list-unstyled">
-        <a type="button" style="text-decoration: none; color: black;" data-bs-toggle="modal"
-            data-bs-target="#contactModal">
-            <li class="custom-list ripple-button">
+        <a type="button" @onclick="ShowModalWithDelay" style="text-decoration: none; color: black;">
+            <li class="ripple-button">
 
                 <img src="res/images/camera.svg" alt="Icon" width="30" height="24" />
                 CAPTURE
             </li>
         </a>
         <a href="/view360" style="text-decoration: none; color: black;">
-            <li class="">
+            <li class="ripple-button">
                 <img src="https://www.thanhphocaphe.com/view360/img/icon-view360.b34be79d.svg" alt="Icon" width="30"
                     height="24" />
                 VIEW 360
@@ -28,7 +28,7 @@
             </li>
         </a>
         <a href="/" style="text-decoration: none; color: black;">
-            <li class="">
+            <li class="ripple-button">
                 <img src="res/images/mini_home.png" alt="Icon" width="30" height="24">
                 HOME
             </li>
@@ -100,5 +100,11 @@
     {
         // Navigate to the home page
         Navigation.NavigateTo("/");
+    }
+
+    private async Task ShowModalWithDelay()
+    {
+        // Delay in milliseconds (e.g., 2000 ms = 2 seconds)
+        await JS.InvokeVoidAsync("openModalWithDelay", "contactModal", 310);
     }
 }

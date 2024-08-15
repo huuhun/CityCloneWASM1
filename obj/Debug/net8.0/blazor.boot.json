@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CityCloneWASM1",
   "resources": {
-    "hash": "sha256-RONNm1l3TAJP0KamRvx7wTCpyPI9Rm9B49xeNABX69o=",
+    "hash": "sha256-x48+jUInCI/psvJQ2nzsMV2IC2LThBbUj5NOAMm+vds=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.37dkch2d2y.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "CityCloneWASM1.wasm": "sha256-zKL3I8o991AYZFlxzWDt6/tQ6ysDsDG49JZiXCC53/I="
+      "CityCloneWASM1.wasm": "sha256-7x+MhXPMTEli7+Rmm48RI5Wg5fC39YnnfDnPx9RaYiw="
     },
     "pdb": {
-      "CityCloneWASM1.pdb": "sha256-OEreDIfh+L1kB2au5ICrD/0Qk8oi+qRPb0ful4Ml7a4="
+      "CityCloneWASM1.pdb": "sha256-w2DQB3dh9X9ymJBX70F3ocMtYJ6hxy3xlCKb4RFFhvg="
     }
   },
   "cacheBootResources": true,

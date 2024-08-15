@@ -5,6 +5,44 @@
     }
 }
 
-.button-container{
-    z-index: 10;
+.ripple-wrapper {
+    position: relative; /* Ensure the ripple effect is positioned correctly */
+    overflow: hidden;
+    width: 55px;
+    height: auto;
+}
+
+.ripple-link {
+    display: block;
+}
+
+.ripple-link img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ripple-wrapper:after {
+    content: "";
+    background: rgba(129, 138, 2, 0.6); /* Ripple color with transparency */
+    display: block;
+    position: absolute;
+    width: 300%; /* Adjust width to cover larger area */
+    height: 300%; /* Adjust height to cover larger area */
+    border-radius: 50%; /* Ensure it's a circle */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: all 0.8s;
+    pointer-events: none; /* Allow clicks to pass through to the link */
+
+}
+
+.ripple-wrapper:active:after {
+    width: 0;
+    height: 0;
+    opacity: 1;
+    transition: 0s;
 }

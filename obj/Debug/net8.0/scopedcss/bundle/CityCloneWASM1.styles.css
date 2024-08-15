@@ -6,8 +6,46 @@
     }
 }
 
-.button-container[b-0xv0htrg8o]{
-    z-index: 10;
+.ripple-wrapper[b-0xv0htrg8o] {
+    position: relative; /* Ensure the ripple effect is positioned correctly */
+    overflow: hidden;
+    width: 55px;
+    height: auto;
+}
+
+.ripple-link[b-0xv0htrg8o] {
+    display: block;
+}
+
+.ripple-link img[b-0xv0htrg8o] {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ripple-wrapper[b-0xv0htrg8o]:after {
+    content: "";
+    background: rgba(129, 138, 2, 0.6); /* Ripple color with transparency */
+    display: block;
+    position: absolute;
+    width: 300%; /* Adjust width to cover larger area */
+    height: 300%; /* Adjust height to cover larger area */
+    border-radius: 50%; /* Ensure it's a circle */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: all 0.8s;
+    pointer-events: none; /* Allow clicks to pass through to the link */
+
+}
+
+.ripple-wrapper:active[b-0xv0htrg8o]:after {
+    width: 0;
+    height: 0;
+    opacity: 1;
+    transition: 0s;
 }
 /* /Layout/HomeButton.razor.rz.scp.css */
 @media (max-width: 1000px) {
@@ -73,6 +111,11 @@
 .overlay-hotbar img[b-hbg5lacw2l] {
     margin-right: 13px;
     /* Space between icon and text */
+}
+
+.overlay-hotbar li:active[b-hbg5lacw2l] {
+    right: 100px;
+    background-color: gold;
 }
 /* /Layout/IFrameMainLayout.razor.rz.scp.css */
 /* /Layout/LongDKButton.razor.rz.scp.css */
@@ -261,8 +304,6 @@
 }
 /* /Layout/RegisterForm.razor.rz.scp.css */
 .image-hover[b-worpmzyjof] {
-
-
   width: 400px;
   /* Specify the width */
   height: 100px;
