@@ -63,7 +63,7 @@
         </ul>
         </div> *@
 
-        <div class="nav-item dropup-center dropup">
+        <div class="nav-item dropup-center dropup" @onfocusout="OnOutFocus">
             <NavLink class="nav-link dropdown-toggle ripple-button" id="dropdownMenu" href="map" role="button"
                 aria-expanded="false" data-bs-toggle="dropdown" @onclick="ToggleDropdown">
                 <i class="bi bi-map" aria-hidden="true"></i>
@@ -132,7 +132,16 @@
         // Handle item click logic here if needed
 
         // Delay for 2 seconds before closing the dropdown
-        await Task.Delay(2000);
+        await Task.Delay(400);
+        IsDropdownOpen = false;
+    }
+
+    
+    private async Task OnOutFocus()
+    {
+        // Handle item click logic here if needed
+         await Task.Delay(400);
+        // Delay for 2 seconds before closing the dropdown
         IsDropdownOpen = false;
     }
 
