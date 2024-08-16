@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
     .push-self-on-small {
-        bottom: 36px;
+        bottom: 30px;
     }
 }
 @media (min-width: 1000px) {

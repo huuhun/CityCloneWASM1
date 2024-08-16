@@ -51,3 +51,12 @@
     background-attachment: fixed;
     width: 100%;
 }
+
+.button {
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
+}
+
+.button:hover {
+    filter: brightness(85%);
+}

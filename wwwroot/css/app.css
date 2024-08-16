@@ -297,7 +297,8 @@ h1:focus {
 .ripple-button {
     position: relative;
     border: none;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
     overflow: hidden;
 }
@@ -307,13 +308,16 @@ h1:focus {
     background: #ebfc06;
     display: block;
     position: absolute;
-    width: 300%; /* Adjust width to cover larger area */
-    height: 300%; /* Adjust height to cover larger area */
-    border-radius: 50%; /* Ensure it's a circle */
+    width: 300%;
+    /* Adjust width to cover larger area */
+    height: 300%;
+    /* Adjust height to cover larger area */
+    border-radius: 50%;
+    /* Ensure it's a circle */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
     opacity: 0;
     transition: all 0.8s;
 }
@@ -323,4 +327,39 @@ h1:focus {
     height: 0;
     opacity: 1;
     transition: 0s;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .resize-self-on-small {
+        height: 500px;
+    }
+}
+
+.responsive-shit {
+    height: 900px;
+}
+
+.iframe-layout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+
+    /* Ensure it is on top of other content */
+    border: none;
+    /* Remove border if needed */
+    margin: 0;
+    /* Remove default margins */
+    padding: 0;
+    /* Remove default padding */
+
+}
+
+
+@media (max-width: 900px) {
+    .resize-self-on-small {
+        height: 90%;
+    }
 }

@@ -51,3 +51,12 @@
     background-attachment: fixed;
     width: 100%;
 }
+
+.button[b-mfrp2doku6] {
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
+}
+
+.button:hover[b-mfrp2doku6] {
+    filter: brightness(85%);
+}

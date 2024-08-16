@@ -37,7 +37,14 @@
     }
 
     .custom-li {
-        margin: 10px 0;
+        display: flex;
+        /* Use Flexbox for alignment */
+        align-items: center;
+        /* Center items vertically */
+        padding: 8px;
+        /* Add padding around the list item */
+        cursor: pointer;
+        /* Show pointer cursor on hover */
     }
 
     .overlay-image {
@@ -62,7 +69,7 @@
         /* Ensure it's a circle */
         transition: background-color 0.3s;
         /* Smooth background color transition */
-        padding: 5px;
+         padding: 4px 4px 4px 4px; 
     }
 
     .ripple-icon:after {
@@ -94,8 +101,6 @@
         background: rgb(148, 145, 145);
 
     }
-
-
 </style>
 
 <div class="container">
@@ -108,8 +113,7 @@
                             class='ripple-icon fa-solid fa-graduation-cap @(isHighlighted1 ? "custom-color" : "")'></i>Education
                     </li>
                     <li class="custom-li" @onclick="ToggleHighlight2"><i
-                            class='ripple-icon fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i>
-                        Hospitals
+                            class='ripple-icon fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i><span style="padding-left: 4px;">Hospitals</span>
                     </li>
                     <li class="custom-li" @onclick='ToggleHighlight3'><i
                             class='ripple-icon fa-solid fa-shop @(isHighlighted3 ? "custom-color" : "")'></i>Markets

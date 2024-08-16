@@ -50,7 +50,7 @@
 /* /Layout/HomeButton.razor.rz.scp.css */
 @media (max-width: 1000px) {
     .push-self-on-small[b-u5lwu8xe1i] {
-        bottom: 36px;
+        bottom: 30px;
     }
 }
 @media (min-width: 1000px) {
@@ -171,6 +171,15 @@
     background-attachment: fixed;
     width: 100%;
 }
+
+.button[b-mfrp2doku6] {
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
+}
+
+.button:hover[b-mfrp2doku6] {
+    filter: brightness(85%);
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 #blazor-error-ui[b-xbaiwfopwx] {
     background: lightyellow;
@@ -250,7 +259,7 @@
 }
 
 .nav-item[b-0h1kw2j7to]  a.active {
-    background-color: rgba(226, 230, 14, 0.37);
+    /* background-color: rgba(226, 230, 14, 0.37); */
     /* color: #ffa600; */
 }
 
@@ -294,7 +303,7 @@
 
 
 .nav-item[b-anqcicg42o]  a.active {
-    background-color: rgba(226, 230, 14, 0.37);
+    /* background-color: rgba(226, 230, 14, 0.37); */
     /* color: #ffa600; */
 }
 

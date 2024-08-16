@@ -2,19 +2,28 @@
 
 <div class="page d-flex flex-column vh-100">
     <main class="flex-grow-1">
-        <article>
-            @Body
-        </article>
-
+        <div id="container2">
+            <div id="container1">
+                <article>
+                    @Body
+                </article>
+            </div>
+        </div>
     </main>
     <a href="register">
-        <button class="btn btn-primary rounded-0" type="button"
+        <button class="btn btn-primary rounded-0 ripple-button button" type="button"
             style="z-index: 1; position: fixed;  bottom: 0; width: 100%; background-color: gold; border: none;">ĐĂNG KÝ
             TƯ VẤN</button>
     </a>
-
     <DKButton />
     <Hotbar />
     <NavMenu />
+
     <img class="overlay-png push-self-on-small" src="../res/images/navbar.png" alt="BLA" />
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
 </div>
