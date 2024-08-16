@@ -4,13 +4,12 @@ function openModalWithDelay(modalId, delay) {
     }, delay);
 }
 
-function closeDropdownAndNavigate(dropdownId, url, delay) {
-    setTimeout(function() {
-        var dropdown = document.getElementById(dropdownId);
+function closeBootstrapDropdown(buttonId) {
+    var button = document.getElementById(buttonId);
+    if (button) {
+        var dropdown = bootstrap.Dropdown.getInstance(button);
         if (dropdown) {
-            var bsDropdown = new bootstrap.Dropdown(dropdown);
-            bsDropdown.hide();
+            dropdown.hide();
         }
-        window.location.href = url;
-    }, delay);
+    }
 }

@@ -1,0 +1,33 @@
+
+@* Dropdown toggle *@
+<button @onclick="ToggleDropdown">
+    Toggle Dropdown
+</button>
+
+@* Dropdown menu *@
+@if (IsDropdownOpen)
+{
+    <div class="dropdown-menu show">
+        <a href="/view360" class="dropdown-item" @onclick="OnItemClick">Item 1</a>
+        <a href="#" class="dropdown-item" @onclick="OnItemClick">Item 2</a>
+        <a href="#" class="dropdown-item" @onclick="OnItemClick">Item 3</a>
+    </div>
+}
+
+@code {
+    private bool IsDropdownOpen = false;
+
+    private async void ToggleDropdown()
+    {
+        IsDropdownOpen = !IsDropdownOpen;
+    }
+
+    private async Task OnItemClick()
+    {
+        // Handle item click logic here if needed
+
+        // Delay for 2 seconds before closing the dropdown
+        await Task.Delay(2000);
+        IsDropdownOpen = false;
+    }
+}
