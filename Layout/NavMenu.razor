@@ -42,31 +42,53 @@
         </li>
         </div> *@
 
+        @* <div class="nav-item dropup-center dropup">
+        <NavLink class="nav-link dropdown-toggle ripple-button" id="dropdownMenu" href="map" role="button"
+        aria-expanded="false" data-bs-toggle="dropdown">
+        <i class="bi bi-map" aria-hidden="true"></i>
+        BẢN ĐỒ
+        </NavLink>
+
+        <ul class="dropdown-menu w-100 custom-bg-dark" style="background-color: #2C2C2C;">
+        <li>
+        <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/location">Vị trí dự án
+        Việt Nam
+        </NavLink>
+        </li>
+        <li>
+        <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/connect">Kết nối tại
+        Việt Nam
+        </NavLink>
+        </li>
+        </ul>
+        </div> *@
+
         <div class="nav-item dropup-center dropup">
-             <NavLink class="nav-link dropdown-toggle ripple-button" id="dropdownMenu" href="map" role="button"
-            aria-expanded="false" data-bs-toggle="dropdown">
-            <i class="bi bi-map" aria-hidden="true"></i>
-            BẢN ĐỒ
-            </NavLink> 
+            <NavLink class="nav-link dropdown-toggle ripple-button" id="dropdownMenu" href="map" role="button"
+                aria-expanded="false" data-bs-toggle="dropdown" @onclick="ToggleDropdown">
+                <i class="bi bi-map" aria-hidden="true"></i>
+                BẢN ĐỒ
+            </NavLink>
 
-
-            @* <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown button
-            </button> *@
-
-            <ul class="dropdown-menu w-100 custom-bg-dark" style="background-color: #2C2C2C;">
-               <li>
-                    <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/location">Vị trí dự án
-                        Việt Nam
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/connect">Kết nối tại
-                        Việt Nam
-                    </NavLink>
-                </li>
-            </ul>
+            @* Dropdown menu *@
+            @if (IsDropdownOpen)
+            {
+                <ul class="dropdown-menu show w-100 custom-bg-dark"
+                    style="top: auto; bottom: 100%; background-color: #2C2C2C;">
+                    <li>
+                        <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/location"
+                            @onclick="OnItemClick">Vị
+                            trí dự án
+                            Việt Nam
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/connect"
+                            @onclick="OnItemClick">Kết nối tại Việt Nam
+                        </NavLink>
+                    </li>
+                </ul>
+            }
         </div>
 
         <div class="nav-item">
@@ -96,6 +118,22 @@
     {
         NavigationManager.NavigateTo("/map/location");
         await JS.InvokeVoidAsync("closeDropdownWithDelay", dropdownId, 3000); // 300 ms delay
+    }
+
+    private bool IsDropdownOpen = false;
+
+    private void ToggleDropdown()
+    {
+        IsDropdownOpen = !IsDropdownOpen;
+    }
+
+    private async Task OnItemClick()
+    {
+        // Handle item click logic here if needed
+
+        // Delay for 2 seconds before closing the dropdown
+        await Task.Delay(2000);
+        IsDropdownOpen = false;
     }
 
 }

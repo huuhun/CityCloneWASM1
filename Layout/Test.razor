@@ -1,18 +1,37 @@
-
 @* Dropdown toggle *@
-<button @onclick="ToggleDropdown">
-    Toggle Dropdown
-</button>
+<div class="nav-item dropup-center dropup">
 
-@* Dropdown menu *@
-@if (IsDropdownOpen)
-{
+    @* Dropdown menu *@
+    @* @if (IsDropdownOpen)
+    {
     <div class="dropdown-menu show">
-        <a href="/view360" class="dropdown-item" @onclick="OnItemClick">Item 1</a>
-        <a href="#" class="dropdown-item" @onclick="OnItemClick">Item 2</a>
-        <a href="#" class="dropdown-item" @onclick="OnItemClick">Item 3</a>
+    <a href="/view360" class="dropdown-item" @onclick="OnItemClick">Item 1</a>
+    <a href="#" class="dropdown-item" @onclick="OnItemClick">Item 2</a>
+    <a href="#" class="dropdown-item" @onclick="OnItemClick">Item 3</a>
     </div>
-}
+    } *@
+
+    <NavLink class="nav-link dropdown-toggle ripple-button" id="dropdownMenu" href="map" role="button"
+        aria-expanded="false" data-bs-toggle="dropdown" @onclick="ToggleDropdown">
+        <i class="bi bi-map" aria-hidden="true"></i>
+        BẢN ĐỒ
+    </NavLink>
+    @if (IsDropdownOpen)
+    {
+        <ul class="dropdown-menu w-100 custom-bg-dark show" style="background-color: #2C2C2C;">
+            <li>
+                <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/location">Vị trí dự án
+                </NavLink>
+            </li>
+            <li>
+                <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/connect">Kết nối tại
+                    Việt Nam
+                </NavLink>
+            </li>
+        </ul>
+    }
+
+</div>
 
 @code {
     private bool IsDropdownOpen = false;
