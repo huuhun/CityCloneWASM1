@@ -60,12 +60,14 @@
         transition-duration: 0.4s;
         border-radius: 50%;
         /* Ensure it's a circle */
-
+        transition: background-color 0.3s;
+        /* Smooth background color transition */
+        padding: 5px;
     }
 
     .ripple-icon:after {
         content: "";
-        background: #818a02;
+        background: #8d9701;
         position: absolute;
         width: 200%;
         /* Adjust width to cover larger area */
@@ -87,6 +89,13 @@
         opacity: 1;
         transition: 0s;
     }
+
+    .ripple-icon:hover {
+        background: rgb(148, 145, 145);
+
+    }
+
+
 </style>
 
 <div class="container">
@@ -99,7 +108,8 @@
                             class='ripple-icon fa-solid fa-graduation-cap @(isHighlighted1 ? "custom-color" : "")'></i>Education
                     </li>
                     <li class="custom-li" @onclick="ToggleHighlight2"><i
-                            class='ripple-icon fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i> Hospitals
+                            class='ripple-icon fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i>
+                        Hospitals
                     </li>
                     <li class="custom-li" @onclick='ToggleHighlight3'><i
                             class='ripple-icon fa-solid fa-shop @(isHighlighted3 ? "custom-color" : "")'></i>Markets

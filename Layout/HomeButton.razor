@@ -1,6 +1,55 @@
+<style>
+    .ripple-icon {
+        position: relative;
+        display: inline-block;
+        /* Ensures the ripple effect covers the image */
+        overflow: hidden;
+        /* Hides overflowed parts of the ripple effect */
+        border-radius: 50%;
+        /* No border radius needed for rectangular images */
+    }
+
+    .ripple-icon img {
+        display: block;
+        /* Ensures the image fills the container */
+        width: 100%;
+        /* Makes the image responsive */
+        height: auto;
+        /* Maintains aspect ratio */
+    }
+
+    .ripple-icon:after {
+        content: "";
+        background: rgba(255, 255, 255, 0.6);
+        /* Ripple color with transparency */
+        display: block;
+        position: absolute;
+        width: 300%;
+        /* Large width for ripple */
+        height: 300%;
+        /* Large height for ripple */
+        border-radius: 50%;
+        /* Circular ripple effect */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all 0.8s;
+        pointer-events: none;
+        /* Allow clicks to pass through */
+    }
+
+    .ripple-icon:active:after {
+        width: 0;
+        height: 0;
+        opacity: 1;
+        transition: 0s;
+        /* Immediate transition on click */
+    }
+</style>
+
 <div class="push-self-on-small" style="z-index: 999; position: fixed; padding: 10px;">
-    <a href="/">
-    <img src="res/images/logo_nav.svg" style="width: 100px; height: auto;">
+    <a href="/" class="ripple-icon">
+        <img src="res/images/logo_nav.svg" style="width: 100px; height: auto;">
     </a>
 </div>
-

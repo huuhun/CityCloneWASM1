@@ -53,7 +53,8 @@
 }
 
 .button[b-xbaiwfopwx] {
-    transition: filter 0.3s ease; /* Transition for smooth animation */
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
 }
 
 .button:hover[b-xbaiwfopwx] {

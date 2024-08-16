@@ -227,7 +227,8 @@
 }
 
 .button[b-xbaiwfopwx] {
-    transition: filter 0.3s ease; /* Transition for smooth animation */
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
 }
 
 .button:hover[b-xbaiwfopwx] {
@@ -254,10 +255,9 @@
 }
 
 .nav-item[b-0h1kw2j7to]  .nav-link:hover {
-    background-color: rgba(12, 197, 27, 0.1);
+    background-color: rgb(112, 96, 5);
     color: rgb(255, 217, 0);
 }
-
 
 @media (max-width: 1000px) {
     .push-self-on-small[b-0h1kw2j7to] {
@@ -299,7 +299,7 @@
 }
 
 .nav-item[b-anqcicg42o]  .nav-link:hover {
-    background-color: rgba(12, 197, 27, 0.1);
+    background-color: rgb(112, 96, 5);
     color: rgb(255, 217, 0);
 }
 

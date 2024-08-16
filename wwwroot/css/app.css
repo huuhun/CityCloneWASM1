@@ -304,7 +304,7 @@ h1:focus {
 
 .ripple-button:after {
     content: "";
-    background: #818a02;
+    background: #ebfc06;
     display: block;
     position: absolute;
     width: 300%; /* Adjust width to cover larger area */
