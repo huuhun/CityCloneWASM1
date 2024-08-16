@@ -114,11 +114,6 @@
 
 </div>
 @code {
-    private async Task OnDropdownItemClick(string dropdownId)
-    {
-        NavigationManager.NavigateTo("/map/location");
-        await JS.InvokeVoidAsync("closeDropdownWithDelay", dropdownId, 3000); // 300 ms delay
-    }
 
     private bool IsDropdownOpen = false;
 
@@ -132,15 +127,14 @@
         // Handle item click logic here if needed
 
         // Delay for 2 seconds before closing the dropdown
-        await Task.Delay(400);
+        await Task.Delay(500);
         IsDropdownOpen = false;
     }
 
-    
     private async Task OnOutFocus()
     {
         // Handle item click logic here if needed
-         await Task.Delay(400);
+         await Task.Delay(500);
         // Delay for 2 seconds before closing the dropdown
         IsDropdownOpen = false;
     }

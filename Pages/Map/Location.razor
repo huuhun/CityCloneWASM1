@@ -38,11 +38,11 @@
 
     .custom-li {
         margin: 10px 0;
-    } 
+    }
 
     .overlay-image {
         position: absolute;
-      
+
         /* Adjust to position SVG horizontally */
         transform: translate(0%, 5%);
 
@@ -51,6 +51,42 @@
 
         align-items: center;
     }
+
+    .ripple-icon {
+        position: relative;
+        border: none;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 50%;
+        /* Ensure it's a circle */
+
+    }
+
+    .ripple-icon:after {
+        content: "";
+        background: #818a02;
+        position: absolute;
+        width: 200%;
+        /* Adjust width to cover larger area */
+        height: 200%;
+        /* Adjust height to cover larger area */
+        border-radius: 50%;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        opacity: 0;
+        transition: all 0.8s;
+    }
+
+    .ripple-icon:active:after {
+        width: 0;
+        height: 0;
+        opacity: 1;
+        transition: 0s;
+    }
 </style>
 
 <div class="container">
@@ -58,14 +94,15 @@
         <div class="col-md">
             <div class="p-3">
                 <ul class="overlay-list">
-                    <li class="custom-li" @onclick="ToggleHighlight1"><i
-                            class='pull-right fa-solid fa-graduation-cap @(isHighlighted1 ? "custom-color" : "")'></i>Education
+                    <li class="custom-li " @onclick="ToggleHighlight1">
+                        <i
+                            class='ripple-icon fa-solid fa-graduation-cap @(isHighlighted1 ? "custom-color" : "")'></i>Education
                     </li>
                     <li class="custom-li" @onclick="ToggleHighlight2"><i
-                            class='fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i> Hospitals
+                            class='ripple-icon fa-solid fa-notes-medical @(isHighlighted2 ? "custom-color" : "")'></i> Hospitals
                     </li>
                     <li class="custom-li" @onclick='ToggleHighlight3'><i
-                            class='fa-solid fa-shop @(isHighlighted3 ? "custom-color" : "")'></i>Markets
+                            class='ripple-icon fa-solid fa-shop @(isHighlighted3 ? "custom-color" : "")'></i>Markets
                     </li>
                 </ul>
                 <div style="position: relative;">
@@ -74,7 +111,7 @@
                     @if (isHighlighted1)
                     {
                         <img src="/res/images/map/location-edu.ab87bf5d.svg" alt="Hidden Image" class="overlay-image"
-                            style="max-width: 100%; height: auto; absolute; top: 0; left: 0; z-index: 2;"  />
+                            style="max-width: 100%; height: auto; absolute; top: 0; left: 0; z-index: 2;" />
                     }
                     @if (isHighlighted2)
                     {

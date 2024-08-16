@@ -1,12 +1,13 @@
 <div class="dropdown m-3 push-self-on-small">
-    <a class="btn btn-secondary ripple-button" href="#" role="button" style="background-color: #2C2C2C; border: none;"  id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+    <a class="btn btn-secondary ripple-button" href="#" role="button" style="background-color: #2C2C2C; border: none;"
+        id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
         <i class="bi bi-list"></i>
     </a>
 
     <ul class="dropdown-menu w-50 custom-bg-dark" aria-labelledby="dropdownMenuLink" style="background-color: #2C2C2C;">
         <li>
             <div class="nav-item" style="padding: 4px;">
-                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <NavLink class="nav-link ripple-button" href="" Match="NavLinkMatch.All">
                     Home
                 </NavLink>
             </div>
@@ -14,7 +15,7 @@
         </li>
         <li>
             <div class="nav-item" style="padding: 4px;">
-                <NavLink class="nav-link" href="view360">
+                <NavLink class="nav-link ripple-button" href="view360">
                     <i class="bi bi-browser-safari" aria-hidden="true"></i>
                     VIEW 360
                 </NavLink>
@@ -22,36 +23,45 @@
         </li>
         <li>
             <div class="nav-item" style="padding: 4px;">
-                <NavLink class="nav-link" href="nhamau">
+                <NavLink class="nav-link ripple-button" href="nhamau">
                     <i class="bi bi-house-door-fill" aria-hidden="true"></i>
                     NHÀ MẪU
                 </NavLink>
             </div>
         </li>
 
-
         <li>
-            <div class="dropend nav-item" style="padding: 4px;">
-                <NavLink class="nav-link dropdown" href="map" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="dropend nav-item" style="padding: 4px;" @onfocusout="OnOutFocus">
+                <NavLink class="nav-link dropdown ripple-button" href="map" id="dropdownMenu" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" @onclick="TToggleDropdown">
                     <i class="bi bi-map" aria-hidden="true"></i>
                     BẢN ĐỒ
                 </NavLink>
-                <ul class="dropdown-menu w-50" style="background-color: #2C2C2C;" aria-labelledby="dropdownSubMenuLink">
-                    <li>
-                        <NavLink class="dropdown-subitem  nav-link text-light" href="map/location">Vị trí dự án
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink class="dropdown-subitem nav-link text-light" href="map/connect">Kết nối tại Việt Nam
-                        </NavLink>
-                    </li>
-                </ul>
+
+                @* Dropdown menu *@
+                @if (IsDropdownOpen)
+                {
+                    <ul class="dropdown-menu w-50 show" style="background-color: #2C2C2C;" aria-labelledby="dropdownSubMenuLink">
+                        <li>
+                            <NavLink class="dropdown-subitem  nav-link text-light ripple-button" href="map/location"
+                                @onclick="OOnItemClick">Vị trí
+                                dự án
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink class="dropdown-subitem nav-link text-light ripple-button" href="map/connect"
+                                @onclick="OOnItemClick">Kết nối
+                                tại Việt Nam
+                            </NavLink>
+                        </li>
+                    </ul>
+                }
             </div>
         </li>
 
         <li>
             <div class="nav-item" style="padding: 4px;">
-                <NavLink class="nav-link " href="library">
+                <NavLink class="nav-link ripple-button" href="library">
                     <i class="bi bi-book" aria-hidden="true"></i> THƯ VIỆN
                 </NavLink>
             </div>
@@ -59,7 +69,7 @@
 
         <li>
             <div class="nav-item small-navbar-item" style="padding: 4px;">
-                <NavLink class="" style="text-decoration: none;">
+                <NavLink class="" style="text-decoration: none; ">
                     <span style="color: grey; text-decoration: none;">
                         <i class="bi bi-house-door-fill"></i> SMART CITY
                     </span>
@@ -70,5 +80,32 @@
 </div>
 
 @code {
+
+    private bool IsDropdownOpen = false;
+
+    private void TToggleDropdown()
+    {
+        Console.WriteLine("Hello World!");
+
+        IsDropdownOpen = !IsDropdownOpen;
+    }
+
+    private async Task OOnItemClick()
+    {
+        // Handle item click logic here if needed
+
+        // Delay for 2 seconds before closing the dropdown
+        await Task.Delay(500);
+        IsDropdownOpen = false;
+    }
+
+
+    private async Task OnOutFocus()
+    {
+        // Handle item click logic here if needed
+        await Task.Delay(500);
+        // Delay for 2 seconds before closing the dropdown
+        IsDropdownOpen = false;
+    }
 
 }

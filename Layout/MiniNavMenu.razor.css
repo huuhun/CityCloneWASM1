@@ -1,5 +1,6 @@
 .dropdown-menu .dropdown-menu {
-    top: -.5rem !important;
+    top: -0.5rem !important;
+    right: 9.5rem;
 }
 
 .nav-item {

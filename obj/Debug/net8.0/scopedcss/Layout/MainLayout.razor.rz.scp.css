@@ -51,3 +51,11 @@
     background-attachment: fixed;
     width: 100%;
 }
+
+.button[b-xbaiwfopwx] {
+    transition: filter 0.3s ease; /* Transition for smooth animation */
+}
+
+.button:hover[b-xbaiwfopwx] {
+    filter: brightness(85%);
+}

@@ -171,7 +171,6 @@
     background-attachment: fixed;
     width: 100%;
 }
-/* /Layout/LongDKButton.razor.rz.scp.css */
 /* /Layout/MainLayout.razor.rz.scp.css */
 #blazor-error-ui[b-xbaiwfopwx] {
     background: lightyellow;
@@ -226,9 +225,18 @@
     background-attachment: fixed;
     width: 100%;
 }
+
+.button[b-xbaiwfopwx] {
+    transition: filter 0.3s ease; /* Transition for smooth animation */
+}
+
+.button:hover[b-xbaiwfopwx] {
+    filter: brightness(85%);
+}
 /* /Layout/MiniNavMenu.razor.rz.scp.css */
 .dropdown-menu .dropdown-menu[b-0h1kw2j7to] {
-    top: -.5rem !important;
+    top: -0.5rem !important;
+    right: 9.5rem;
 }
 
 .nav-item[b-0h1kw2j7to] {
