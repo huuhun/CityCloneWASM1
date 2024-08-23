@@ -1,0 +1,21 @@
+@page "/para"
+@inject IJSRuntime JS
+
+<style>
+      #panorama-container {
+            width: 100vw;
+            height: 100vh;
+        }
+</style>
+
+<div id="panorama-container"></div>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("initializePanorama");
+        }
+    }
+}

@@ -2078,3 +2078,5 @@ D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\CityCloneWASM1.dll
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\refint\CityCloneWASM1.dll
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\CityCloneWASM1.pdb
 D:\Hung_Dev\remote-repo\CityCloneWASM1\obj\Debug\net8.0\ref\CityCloneWASM1.dll
+D:\Hung_Dev\remote-repo\CityCloneWASM1\bin\Debug\net8.0\package-lock.json
+D:\Hung_Dev\remote-repo\CityCloneWASM1\bin\Debug\net8.0\package.json

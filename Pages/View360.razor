@@ -1,5 +1,4 @@
-﻿
-@page "/view360"
+﻿@page "/view360"
 @inject IJSRuntime JS
 @inject NavigationManager NavigationManager
 
@@ -53,19 +52,19 @@
         }
     }
 
-     [JSInvokable]
-  public void NavigateToView(string id)
-  {
-    Console.WriteLine("Hello ");
+    [JSInvokable]
+    public void NavigateToView(string id)
+    {
+        Console.WriteLine("Hello ");
 
-    // Navigate using the NavigationManager
-    NavigationManager.NavigateTo($"/view360", forceLoad: true);
-  }
+        // Navigate using the NavigationManager
+        NavigationManager.NavigateTo($"/view360", forceLoad: true);
+    }
 
     @* private async Task CallJavaScript()
-    {
-        await JS.InvokeVoidAsync("runapp");
-    } *@
+{
+await JS.InvokeVoidAsync("runapp");
+} *@
 
     @* private async Task MyButtonClickAsync()
 {

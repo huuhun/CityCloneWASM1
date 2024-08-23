@@ -81,6 +81,14 @@
       "PackagePath": "staticwebassets\\imgs\\null.svg"
     },
     {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\test\\pano1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\test\\pano1.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\test\\pano2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\test\\pano2.jpg"
+    },
+    {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\target.png",
       "PackagePath": "staticwebassets\\imgs\\target.png"
     },
@@ -95,6 +103,10 @@
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\my-panorama.js",
+      "PackagePath": "staticwebassets\\js\\my-panorama.js"
     },
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\panorama.js",
