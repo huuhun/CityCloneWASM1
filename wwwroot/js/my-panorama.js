@@ -1,37 +1,72 @@
-function initializePanorama() {
-    const panoramaViewer = pannellum.viewer('panorama-container', {
-        type: 'equirectangular',
-        panorama: 'imgs/pano/hotspots/test/pano1.jpg',
-        autoLoad: true,
-        compass: true,
-        maxPixelZoom: 2.0,
+// const { rotate } = require("three/webgpu");
 
-        hotSpots: [
-            {
-                pitch: 14.1,
-                yaw: 1.5,
-                type: "info",
-                text: "Baltimore Museum of Art",
-                URL: "https://artbma.org/"
+// Function to set pitch and yaw, and restart auto-rotation
+function setNewView() {
+    const viewer = pannellum.viewer('streetview'); // Ensure the viewer instance is correctly referenced
+    
+        viewer.setPitch(-100);
+        viewer.setYaw(150);
+
+}
+
+function initializePanorama() {
+    let skyPitch = -3; // Initialize with the default pitch
+    let hotspotPitch = -3; // Initialize with the default pitch
+
+    const delaySec = 1500;
+    const autoRotateDegree = -2;
+
+    const panoramaViewer = pannellum.viewer('streetview', {
+        default: {
+            firstScene: "sky",
+            author: "Matthew Petroff",
+            sceneFadeDuration: 1000,
+            autoLoad: true,
+            autoRotate: autoRotateDegree,
+            autoRotateInactivityDelay: delaySec,
+        },
+
+        scenes: {
+            sky: {
+                title: "Mason Circle",
+                hfov: 150,
+                pitch: skyPitch,
+                yaw: 117,
+                type: "equirectangular",
+                panorama: "/imgs/pano/sky/sky.jpg",
+                hotSpots: [
+                    {
+                        pitch: -68.1,
+                        yaw: 116.9,
+                        type: "scene",
+                        text: "Spring House or Dairy",
+                        sceneId: "hotspot1"
+                    }
+                ]
             },
-            {
-                pitch: -9.4,
-                yaw: 222.6,
-                type: "info",
-                text: "Art Museum Drive",
-                clickHandlerFunc: () => {
-                    panoramaViewer.loadScene({
-                        type: 'equirectangular',
-                        panorama: 'imgs/pano/hotspots/test/pano2.jpg'
-                    });
-                }
+
+            hotspot1: {
+                title: "Spring House or Dairy",
+                hfov: 150,
+                yaw: 5,
+                pitch: hotspotPitch,
+                type: "equirectangular",
+                panorama: "imgs/pano/hotspots/hotspot1/hotspot1.jpg",
+                hotSpots: [
+                    {
+                        pitch: -0.6,
+                        yaw: 37.1,
+                        type: "scene",
+                        text: "",
+                        sceneId: "sky",
+                        targetYaw: -23,
+                        targetPitch: 2
+                    }
+                ]
             },
-            {
-                pitch: -0.9,
-                yaw: 144.4,
-                type: "info",
-                text: "North Charles Street"
-            }
-        ]
+        },
+
+
     });
 }
+

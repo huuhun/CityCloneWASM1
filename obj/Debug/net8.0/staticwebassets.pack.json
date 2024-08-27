@@ -81,12 +81,20 @@
       "PackagePath": "staticwebassets\\imgs\\null.svg"
     },
     {
-      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\test\\pano1.jpg",
-      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\test\\pano1.jpg"
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot1\\hotspot1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot1\\hotspot1.jpg"
     },
     {
-      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\test\\pano2.jpg",
-      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\test\\pano2.jpg"
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot1\\masterplan-26_0_01.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot1\\masterplan-26_0_01.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\sky\\masterplan-26_0_99.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\sky\\masterplan-26_0_99.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\sky\\sky.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\sky\\sky.jpg"
     },
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\target.png",

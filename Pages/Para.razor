@@ -2,13 +2,46 @@
 @inject IJSRuntime JS
 
 <style>
-      #panorama-container {
-            width: 100vw;
-            height: 100vh;
-        }
+   .app3d {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .app3d.hotspot-clickable {
+        cursor: pointer;
+    }
+
+    .mini-map {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 300px;
+        height: 300px;
+        background-color: #faebd77a;
+        border-radius: 50px 0 0 0;
+    }
+
+    #hotspot-info {
+        pointer-events: none;
+    }
+
+    .pano-hotspot {
+        position: absolute;
+        width: 72px;
+        height: 72px;
+        display: block;
+        /* Ensure elements are not hidden */
+    }
 </style>
 
-<div id="panorama-container"></div>
+<div id="streetview" class="app3d">
+    <div id="hotspot-info"></div>
+    <button id="pan-up" @onclick="CallJavaScriptFunction">Reset View</button>
+</div>
+@* <div id="mini-map" class="mini-map"></div> *@
 
 @code {
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -18,4 +51,9 @@
             await JS.InvokeVoidAsync("initializePanorama");
         }
     }
+      private async Task CallJavaScriptFunction()
+    {
+        await JS.InvokeVoidAsync("setNewView");
+    }
+
 }

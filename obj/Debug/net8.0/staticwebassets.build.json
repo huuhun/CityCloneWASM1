@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RWhKoTx6Jxq3CUignjfyl1EfP+E4O/Vw8nx2MNsIWrw=",
+  "Hash": "EMQynYIZ7gvOU6zG/HPpGRLK2MFWraOiwDETP4eo7Fc=",
   "Source": "CityCloneWASM1",
   "BasePath": "/",
   "Mode": "Root",
@@ -8111,12 +8111,12 @@
       "OriginalItemSpec": "wwwroot\\imgs\\null.svg"
     },
     {
-      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\test\\pano1.jpg",
+      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot1\\hotspot1.jpg",
       "SourceId": "CityCloneWASM1",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "imgs/pano/hotspots/test/pano1.jpg",
+      "RelativePath": "imgs/pano/hotspots/hotspot1/hotspot1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8127,15 +8127,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\pano\\hotspots\\test\\pano1.jpg"
+      "OriginalItemSpec": "wwwroot\\imgs\\pano\\hotspots\\hotspot1\\hotspot1.jpg"
     },
     {
-      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\test\\pano2.jpg",
+      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot1\\masterplan-26_0_01.json",
       "SourceId": "CityCloneWASM1",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "imgs/pano/hotspots/test/pano2.jpg",
+      "RelativePath": "imgs/pano/hotspots/hotspot1/masterplan-26_0_01.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -8146,7 +8146,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\pano\\hotspots\\test\\pano2.jpg"
+      "OriginalItemSpec": "wwwroot\\imgs\\pano\\hotspots\\hotspot1\\masterplan-26_0_01.json"
+    },
+    {
+      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\sky\\masterplan-26_0_99.json",
+      "SourceId": "CityCloneWASM1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "imgs/pano/sky/masterplan-26_0_99.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\pano\\sky\\masterplan-26_0_99.json"
+    },
+    {
+      "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\sky\\sky.jpg",
+      "SourceId": "CityCloneWASM1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "imgs/pano/sky/sky.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\pano\\sky\\sky.jpg"
     },
     {
       "Identity": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\target.png",
