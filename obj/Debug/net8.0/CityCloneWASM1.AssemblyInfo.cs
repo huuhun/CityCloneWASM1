@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CityCloneWASM1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b0c9ff8d6e4942f6d842c82be9d42c2c29267ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef495604f3c8dad103bcf3f3a11e6474076e0444")]
 [assembly: System.Reflection.AssemblyProductAttribute("CityCloneWASM1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CityCloneWASM1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

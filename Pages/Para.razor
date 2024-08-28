@@ -2,7 +2,7 @@
 @inject IJSRuntime JS
 
 <style>
-   .app3d {
+    .app3d {
         position: fixed;
         top: 0;
         right: 0;
@@ -35,11 +35,18 @@
         display: block;
         /* Ensure elements are not hidden */
     }
+
+     .custom-hotspot {
+        height: 50px;
+        width: 50px;
+        background-image: url('/imgs/hotspot.svg'); /* Path to your custom icon image */
+
+    }
 </style>
 
 <div id="streetview" class="app3d">
     <div id="hotspot-info"></div>
-    <button id="pan-up" @onclick="CallJavaScriptFunction">Reset View</button>
+    @* <button id="pan-up">Reset View</button> *@
 </div>
 @* <div id="mini-map" class="mini-map"></div> *@
 
@@ -50,10 +57,6 @@
         {
             await JS.InvokeVoidAsync("initializePanorama");
         }
-    }
-      private async Task CallJavaScriptFunction()
-    {
-        await JS.InvokeVoidAsync("setNewView");
-    }
 
+    }
 }

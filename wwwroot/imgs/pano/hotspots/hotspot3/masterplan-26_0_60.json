@@ -1,0 +1,25 @@
+{
+	"iD": "",
+	"guid": "1D50649D-44D9-95FA-B62A-5F9CFCAAEB8C",
+	"name": "masterplan-26_0_60",
+	"fullname": "",
+	"time": 12,
+	"exposure": 11,
+	"profile": "p1",
+	"pos":
+	{
+		"x": 52.600000000000001,
+		"y": 65.900000000000006,
+		"z": 4.5499999999999998
+	},
+	"rot":
+	{
+		"x": 0,
+		"y": 0,
+		"z": -160
+	},
+	"quality": 3,
+	"cate": "",
+	"panotype": 1,
+	"links": []
+}
