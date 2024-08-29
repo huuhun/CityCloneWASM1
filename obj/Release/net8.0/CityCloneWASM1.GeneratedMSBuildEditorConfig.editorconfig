@@ -13,135 +13,147 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = CityCloneWASM1
 build_property.RootNamespace = CityCloneWASM1
-build_property.ProjectDir = D:\Hung_Dev\CityCloneWASM1\
+build_property.ProjectDir = D:\Hung_Dev\remote-repo\CityCloneWASM1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Hung_Dev\CityCloneWASM1
+build_property.MSBuildProjectDirectory = D:\Hung_Dev\remote-repo\CityCloneWASM1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Hung_Dev/CityCloneWASM1/App.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Counter.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/DelayDropdown.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XERlbGF5RHJvcGRvd24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/PanoramaViewer.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFBhbm9yYW1hVmlld2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Home.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/iframes/NhaCantana.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/iframes/NhaCantana.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFDYW50YW5hLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/iframes/NhaCantanaGoc.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/iframes/NhaCantanaGoc.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFDYW50YW5hR29jLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/iframes/NhaDavinci.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/iframes/NhaDavinci.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFEYXZpbmNpLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/iframes/NhaLak.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/iframes/NhaLak.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFMYWsucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/iframes/NhaTeslaGoc.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/iframes/NhaTesla.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFUZXNsYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/iframes/NhaTeslaGoc.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFUZXNsYUdvYy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/LibraryPage/Library.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/LibraryPage/Library.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeVBhZ2VcTGlicmFyeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/LibraryPage/Other.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/LibraryPage/Other.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeVBhZ2VcT3RoZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/LibraryPage/Video.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/LibraryPage/Video.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlicmFyeVBhZ2VcVmlkZW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Map/Connect.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Map/Connect.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwXENvbm5lY3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Map/Location.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Map/Location.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwXExvY2F0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Map/Map.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Map/Map.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFwXE1hcC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/NhaMau.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/NhaMau.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhTWF1LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Register.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Para.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFyYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/SmartCity.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/SmartCity.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU21hcnRDaXR5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/View360.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/View360.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlldzM2MC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Pages/Weather.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/_Imports.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/DKButton.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/DKButton.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XERLQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-0xv0htrg8o
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/HomeButton.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/HomeButton.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhvbWVCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-u5lwu8xe1i
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/Hotbar.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/Hotbar.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XEhvdGJhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-hbg5lacw2l
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/IFrameMainLayout.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/IFrameMainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XElGcmFtZU1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mfrp2doku6
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/LongDKButton.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExvbmdES0J1dHRvbi5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-ydi0hd9ors
-
-[D:/Hung_Dev/CityCloneWASM1/Layout/MainLayout.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xbaiwfopwx
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/MiniNavMenu.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/MiniNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1pbmlOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-0h1kw2j7to
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/NavMenu.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-anqcicg42o
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/RegisterForm.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/RegisterForm.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFJlZ2lzdGVyRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-worpmzyjof
 
-[D:/Hung_Dev/CityCloneWASM1/Layout/Test.razor]
+[D:/Hung_Dev/remote-repo/CityCloneWASM1/Layout/Test.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XFRlc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-09hlqmouee
-
-[D:/Hung_Dev/CityCloneWASM1/Pages/iframes/NhaTesla.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaWZyYW1lc1xOaGFUZXNsYS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-t5bizheffq

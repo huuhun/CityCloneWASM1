@@ -1,4 +1,5 @@
-@page "/para"
+@* @page "/para" *@
+@page "/view360"
 @inject IJSRuntime JS
 
 <style>
@@ -48,7 +49,7 @@
     <div id="hotspot-info"></div>
     @* <button id="pan-up">Reset View</button> *@
 </div>
-@* <div id="mini-map" class="mini-map"></div> *@
+ <div id="mini-map" class="mini-map"></div> 
 
 @code {
     protected override async Task OnAfterRenderAsync(bool firstRender)

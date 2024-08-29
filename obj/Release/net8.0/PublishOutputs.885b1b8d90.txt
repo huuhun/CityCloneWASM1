@@ -1,0 +1,2 @@
+D:\Hung_Dev\remote-repo\CityCloneWASM1\bin\Release\net8.0\publish\package-lock.json
+D:\Hung_Dev\remote-repo\CityCloneWASM1\bin\Release\net8.0\publish\web.config

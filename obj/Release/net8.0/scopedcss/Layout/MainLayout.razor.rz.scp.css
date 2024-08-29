@@ -27,7 +27,7 @@
     width: auto;
     height: 54px;
     /* Background color */
-    z-index: 1;
+    z-index: 2;
     /* Higher z-index to make it appear above other content */
     display: flex;
     padding: 0.0rem 0.0rem;
@@ -50,4 +50,13 @@
     height: auto;
     background-attachment: fixed;
     width: 100%;
+}
+
+.button[b-xbaiwfopwx] {
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
+}
+
+.button:hover[b-xbaiwfopwx] {
+    filter: brightness(85%);
 }

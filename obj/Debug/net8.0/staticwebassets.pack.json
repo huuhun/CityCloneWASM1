@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\CityCloneWASM1.styles.css"
     },
     {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\_redirects",
+      "PackagePath": "staticwebassets"
+    },
+    {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
@@ -61,6 +65,18 @@
       "PackagePath": "staticwebassets\\imgs\\field.svg"
     },
     {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\highres_test\\highres-image.jpg",
+      "PackagePath": "staticwebassets\\imgs\\highres_test\\highres-image.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\highres_test\\hong-kong-mountain-top-view.jpg",
+      "PackagePath": "staticwebassets\\imgs\\highres_test\\hong-kong-mountain-top-view.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\highres_test\\para.jpg",
+      "PackagePath": "staticwebassets\\imgs\\highres_test\\para.jpg"
+    },
+    {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\hotspot.png",
       "PackagePath": "staticwebassets\\imgs\\hotspot.png"
     },
@@ -81,12 +97,80 @@
       "PackagePath": "staticwebassets\\imgs\\null.svg"
     },
     {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot10\\hotspot10.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot10\\hotspot10.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot10\\masterplan-26_0_67.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot10\\masterplan-26_0_67.json"
+    },
+    {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot1\\hotspot1.jpg",
       "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot1\\hotspot1.jpg"
     },
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot1\\masterplan-26_0_01.json",
       "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot1\\masterplan-26_0_01.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot2\\hotspot2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot2\\hotspot2.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot2\\masterplan-26_0_02.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot2\\masterplan-26_0_02.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot3\\hotspot3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot3\\hotspot3.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot3\\masterplan-26_0_60.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot3\\masterplan-26_0_60.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot4\\hotspot4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot4\\hotspot4.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot4\\masterplan-26_0_61.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot4\\masterplan-26_0_61.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot5\\masterplan-26_0_62.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot5\\masterplan-26_0_62.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot6\\hotspot6.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot6\\hotspot6.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot6\\masterplan-26_0_63.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot6\\masterplan-26_0_63.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot7\\hotspot7.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot7\\hotspot7.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot7\\masterplan-26_0_64.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot7\\masterplan-26_0_64.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot8\\hotspot8.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot8\\hotspot8.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot8\\masterplan-26_0_65.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot8\\masterplan-26_0_65.json"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot9\\hotspot9.jpg",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot9\\hotspot9.jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\hotspots\\hotspot9\\masterplan-26_0_66.json",
+      "PackagePath": "staticwebassets\\imgs\\pano\\hotspots\\hotspot9\\masterplan-26_0_66.json"
     },
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\pano\\sky\\masterplan-26_0_99.json",
@@ -115,6 +199,10 @@
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\my-panorama.js",
       "PackagePath": "staticwebassets\\js\\my-panorama.js"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\panorama-script.js",
+      "PackagePath": "staticwebassets\\js\\panorama-script.js"
     },
     {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\js\\panorama.js",

@@ -6,13 +6,51 @@
     }
 }
 
-.button-container[b-0xv0htrg8o]{
-    z-index: 10;
+.ripple-wrapper[b-0xv0htrg8o] {
+    position: relative; /* Ensure the ripple effect is positioned correctly */
+    overflow: hidden;
+    width: 55px;
+    height: auto;
+}
+
+.ripple-link[b-0xv0htrg8o] {
+    display: block;
+}
+
+.ripple-link img[b-0xv0htrg8o] {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ripple-wrapper[b-0xv0htrg8o]:after {
+    content: "";
+    background: rgba(129, 138, 2, 0.6); /* Ripple color with transparency */
+    display: block;
+    position: absolute;
+    width: 300%; /* Adjust width to cover larger area */
+    height: 300%; /* Adjust height to cover larger area */
+    border-radius: 50%; /* Ensure it's a circle */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    opacity: 0;
+    transition: all 0.8s;
+    pointer-events: none; /* Allow clicks to pass through to the link */
+
+}
+
+.ripple-wrapper:active[b-0xv0htrg8o]:after {
+    width: 0;
+    height: 0;
+    opacity: 1;
+    transition: 0s;
 }
 /* /Layout/HomeButton.razor.rz.scp.css */
 @media (max-width: 1000px) {
     .push-self-on-small[b-u5lwu8xe1i] {
-        bottom: 36px;
+        bottom: 30px;
     }
 }
 @media (min-width: 1000px) {
@@ -74,8 +112,74 @@
     margin-right: 13px;
     /* Space between icon and text */
 }
+
+.overlay-hotbar li:active[b-hbg5lacw2l] {
+    right: 100px;
+    background-color: gold;
+}
 /* /Layout/IFrameMainLayout.razor.rz.scp.css */
-/* /Layout/LongDKButton.razor.rz.scp.css */
+#blazor-error-ui[b-mfrp2doku6] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss[b-mfrp2doku6] {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.custom-button[b-mfrp2doku6] {
+    background-color: brown;
+}
+
+.overlay-png[b-mfrp2doku6] {
+    position: fixed;
+    bottom: 0;
+    width: auto;
+    height: 54px;
+    /* Background color */
+    z-index: 2;
+    /* Higher z-index to make it appear above other content */
+    display: flex;
+    padding: 0.0rem 0.0rem;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1000px) {
+    .push-self-on-small[b-mfrp2doku6] {
+        bottom: 35px;
+    }
+}
+
+
+.background-cover[b-mfrp2doku6] {
+    background-image: url('../res/images/sub-intro-back.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    height: auto;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.button[b-mfrp2doku6] {
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
+}
+
+.button:hover[b-mfrp2doku6] {
+    filter: brightness(85%);
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 #blazor-error-ui[b-xbaiwfopwx] {
     background: lightyellow;
@@ -106,7 +210,7 @@
     width: auto;
     height: 54px;
     /* Background color */
-    z-index: 1;
+    z-index: 2;
     /* Higher z-index to make it appear above other content */
     display: flex;
     padding: 0.0rem 0.0rem;
@@ -130,9 +234,19 @@
     background-attachment: fixed;
     width: 100%;
 }
+
+.button[b-xbaiwfopwx] {
+    transition: filter 0.3s ease;
+    /* Transition for smooth animation */
+}
+
+.button:hover[b-xbaiwfopwx] {
+    filter: brightness(85%);
+}
 /* /Layout/MiniNavMenu.razor.rz.scp.css */
 .dropdown-menu .dropdown-menu[b-0h1kw2j7to] {
-    top: -.5rem !important;
+    top: -0.5rem !important;
+    right: 9.5rem;
 }
 
 .nav-item[b-0h1kw2j7to] {
@@ -145,15 +259,14 @@
 }
 
 .nav-item[b-0h1kw2j7to]  a.active {
-    background-color: rgba(226, 230, 14, 0.37);
+    /* background-color: rgba(226, 230, 14, 0.37); */
     /* color: #ffa600; */
 }
 
 .nav-item[b-0h1kw2j7to]  .nav-link:hover {
-    background-color: rgba(12, 197, 27, 0.1);
+    background-color: rgb(112, 96, 5);
     color: rgb(255, 217, 0);
 }
-
 
 @media (max-width: 1000px) {
     .push-self-on-small[b-0h1kw2j7to] {
@@ -190,12 +303,12 @@
 
 
 .nav-item[b-anqcicg42o]  a.active {
-    background-color: rgba(226, 230, 14, 0.37);
+    /* background-color: rgba(226, 230, 14, 0.37); */
     /* color: #ffa600; */
 }
 
 .nav-item[b-anqcicg42o]  .nav-link:hover {
-    background-color: rgba(12, 197, 27, 0.1);
+    background-color: rgb(112, 96, 5);
     color: rgb(255, 217, 0);
 }
 
@@ -261,8 +374,6 @@
 }
 /* /Layout/RegisterForm.razor.rz.scp.css */
 .image-hover[b-worpmzyjof] {
-
-
   width: 400px;
   /* Specify the width */
   height: 100px;
@@ -302,4 +413,9 @@
   /* Center text vertically if needed */
 }
 /* /Layout/Test.razor.rz.scp.css */
-/* /Pages/iframes/NhaTesla.razor.rz.scp.css */
+    .dropdown-menu[b-09hlqmouee] {
+        /* transition: none !important; */
+        /* To make dropdown animations faster, use this style instead */
+        transition-duration: 1000ms !important;
+        /* You can adjust the duration as needed */
+    }

@@ -1,0 +1,6 @@
+    .dropdown-menu[b-09hlqmouee] {
+        /* transition: none !important; */
+        /* To make dropdown animations faster, use this style instead */
+        transition-duration: 1000ms !important;
+        /* You can adjust the duration as needed */
+    }
