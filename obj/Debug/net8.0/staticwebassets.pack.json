@@ -73,6 +73,14 @@
       "PackagePath": "staticwebassets\\imgs\\highres_test\\hong-kong-mountain-top-view.jpg"
     },
     {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\highres_test\\pano (1).jpg",
+      "PackagePath": "staticwebassets\\imgs\\highres_test\\pano (1).jpg"
+    },
+    {
+      "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\highres_test\\pano.jpg",
+      "PackagePath": "staticwebassets\\imgs\\highres_test\\pano.jpg"
+    },
+    {
       "Id": "D:\\Hung_Dev\\remote-repo\\CityCloneWASM1\\wwwroot\\imgs\\highres_test\\para.jpg",
       "PackagePath": "staticwebassets\\imgs\\highres_test\\para.jpg"
     },
