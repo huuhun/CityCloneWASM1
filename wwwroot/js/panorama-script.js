@@ -41,6 +41,7 @@ function runapp() {
     let url_string = window.location.href
     let url = new URL(url_string);
     let panoname = url.searchParams.get("view") || 'overview'
+    //let panoname = url.searchParams.get("view") || '3br_02'
     viewer.init().then(() => {
         loadPanoById(panoname, true)
     })
@@ -100,7 +101,7 @@ function loadPanoById(id, firstload = false) {
         })
         .catch(console.log)
     //window.history.pushState({}, null, `./?view=${id}`);
-    DotNet.invokeMethodAsync('Test360', 'NavigateToView', id);
+    DotNet.invokeMethodAsync('View360', 'NavigateToView', id);
 
 }
 runapp();

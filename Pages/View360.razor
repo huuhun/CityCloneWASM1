@@ -1,4 +1,4 @@
-﻿@page "/view360test"
+﻿@page "/view360"
 @inject IJSRuntime JS
 @inject NavigationManager NavigationManager
 @inject HttpClient Http
@@ -59,7 +59,7 @@
         Console.WriteLine("Hello ");
 
         // Navigate using the NavigationManager
-        NavigationManager.NavigateTo($"/view360test", forceLoad: true);
+        NavigationManager.NavigateTo($"/view360", forceLoad: true);
     }
 
     @* private async Task CallJavaScript()
