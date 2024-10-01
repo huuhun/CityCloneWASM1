@@ -1,7 +1,8 @@
 console.log("js script running");
 //const cors = require('cors');
-const baseUrl = 'http://localhost/panohost/imgs'
+//const baseUrl = 'http://localhost/panohost/imgs'
 //const baseUrl = 'http://127.0.0.1:5500/index.html/imgs'
+const baseUrl = 'http://192.168.10.67/panohost/imgs/'
 let viewer, minimap, info, curr
 function runapp() {
     const el = document.getElementById('streetview')
